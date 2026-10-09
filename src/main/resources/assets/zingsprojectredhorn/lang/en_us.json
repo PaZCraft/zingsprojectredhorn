@@ -1,0 +1,13 @@
+{
+  "itemGroup.zingsprojectredhorn": "Example Mod Tab",
+  "block.zingsprojectredhorn.example_block": "Example Block",
+  "item.zingsprojectredhorn.example_item": "Example Item",
+
+  "zingsprojectredhorn.configuration.title": "ZiNG's Project Red-Horn Configs",
+  "zingsprojectredhorn.configuration.section.zingsprojectredhorn.common.toml": "ZiNG's Project Red-Horn Configs",
+  "zingsprojectredhorn.configuration.section.zingsprojectredhorn.common.toml.title": "ZiNG's Project Red-Horn Configs",
+  "zingsprojectredhorn.configuration.items": "Item List",
+  "zingsprojectredhorn.configuration.logDirtBlock": "Log Dirt Block",
+  "zingsprojectredhorn.configuration.magicNumberIntroduction": "Magic Number Text",
+  "zingsprojectredhorn.configuration.magicNumber": "Magic Number"
+}
