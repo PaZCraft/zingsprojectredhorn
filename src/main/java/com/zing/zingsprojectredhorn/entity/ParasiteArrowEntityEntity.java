@@ -1,4 +1,4 @@
-package net.mcreator.zingsprojectredhorn.entity;
+package com.zing.zingsprojectredhorn.entity;
 
 import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.phys.EntityHitResult;
@@ -17,9 +17,9 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.core.registries.BuiltInRegistries;
 
-import net.mcreator.zingsprojectredhorn.procedures.ParasiteArrowEntityProjectileHitsLivingEntityProcedure;
-import net.mcreator.zingsprojectredhorn.init.ZingsProjectRedHornModItems;
-import net.mcreator.zingsprojectredhorn.init.ZingsProjectRedHornModEntities;
+import com.zing.zingsprojectredhorn.procedures.ParasiteArrowEntityProjectileHitsLivingEntityProcedure;
+import com.zing.zingsprojectredhorn.init.ZingsProjectRedHornModItems;
+import com.zing.zingsprojectredhorn.init.ZingsProjectRedHornModEntities;
 
 import javax.annotation.Nullable;
 

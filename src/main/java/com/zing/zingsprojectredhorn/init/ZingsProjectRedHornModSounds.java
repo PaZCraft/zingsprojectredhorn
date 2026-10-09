@@ -1,7 +1,7 @@
 /*
  *    MCreator note: This file will be REGENERATED on each build.
  */
-package net.mcreator.zingsprojectredhorn.init;
+package com.zing.zingsprojectredhorn.init;
 
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredHolder;
@@ -10,7 +10,7 @@ import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.Registries;
 
-import net.mcreator.zingsprojectredhorn.ZingsProjectRedHornMod;
+import com.zing.zingsprojectredhorn.ZingsProjectRedHornMod;
 
 public class ZingsProjectRedHornModSounds {
 	public static final DeferredRegister<SoundEvent> REGISTRY = DeferredRegister.create(Registries.SOUND_EVENT, ZingsProjectRedHornMod.MODID);

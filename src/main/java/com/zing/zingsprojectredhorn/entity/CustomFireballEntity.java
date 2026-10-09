@@ -1,4 +1,4 @@
-package net.mcreator.zingsprojectredhorn.entity;
+package com.zing.zingsprojectredhorn.entity;
 
 import net.neoforged.neoforge.registries.RegisterEvent;
 import net.neoforged.fml.common.EventBusSubscriber;

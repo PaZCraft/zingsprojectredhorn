@@ -1,7 +1,7 @@
 /*
  *	MCreator note: This file will be REGENERATED on each build.
  */
-package net.mcreator.zingsprojectredhorn.init;
+package com.zing.zingsprojectredhorn.init;
 
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.fml.common.EventBusSubscriber;

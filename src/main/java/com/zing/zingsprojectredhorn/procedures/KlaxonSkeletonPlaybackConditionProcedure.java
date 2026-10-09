@@ -1,4 +1,4 @@
-package net.mcreator.zingsprojectredhorn.procedures;
+package com.zing.zingsprojectredhorn.procedures;
 
 import net.neoforged.neoforge.event.entity.living.LivingIncomingDamageEvent;
 import net.neoforged.fml.common.EventBusSubscriber;

@@ -1,4 +1,4 @@
-package net.mcreator.zingsprojectredhorn.item;
+package com.zing.zingsprojectredhorn.item;
 
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.ItemUseAnimation;
@@ -13,7 +13,7 @@ import net.minecraft.world.InteractionHand;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.server.level.ServerLevel;
 
-import net.mcreator.zingsprojectredhorn.entity.ParasiteArrowEntityEntity;
+import com.zing.zingsprojectredhorn.entity.ParasiteArrowEntityEntity;
 
 public class ParasiteCrossbowRangedItem extends Item {
 	public ParasiteCrossbowRangedItem(Item.Properties properties) {

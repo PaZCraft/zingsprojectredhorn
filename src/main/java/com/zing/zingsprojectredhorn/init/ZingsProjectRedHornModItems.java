@@ -1,4 +1,4 @@
-package net.mcreator.zingsprojectredhorn.init;
+package com.zing.zingsprojectredhorn.init;
 
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -7,9 +7,9 @@ import net.neoforged.neoforge.registries.DeferredHolder;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.*;
 
-import net.mcreator.zingsprojectredhorn.item.*;
-import net.mcreator.zingsprojectredhorn.block.PlantationBulbOnBlock;
-import net.mcreator.zingsprojectredhorn.ZingsProjectRedHornMod;
+import com.zing.zingsprojectredhorn.item.*;
+import com.zing.zingsprojectredhorn.block.PlantationBulbOnBlock;
+import com.zing.zingsprojectredhorn.ZingsProjectRedHornMod;
 
 import java.util.function.Function;
 

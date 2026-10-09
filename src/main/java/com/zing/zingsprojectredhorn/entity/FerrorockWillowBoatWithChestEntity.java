@@ -1,10 +1,10 @@
-package net.mcreator.zingsprojectredhorn.entity;
+package com.zing.zingsprojectredhorn.entity;
 
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.vehicle.boat.ChestBoat;
 import net.minecraft.world.entity.EntityType;
 
-import net.mcreator.zingsprojectredhorn.init.ZingsProjectRedHornModItems;
+import com.zing.zingsprojectredhorn.init.ZingsProjectRedHornModItems;
 
 public class FerrorockWillowBoatWithChestEntity extends ChestBoat {
 	public FerrorockWillowBoatWithChestEntity(EntityType<FerrorockWillowBoatWithChestEntity> type, Level world) {

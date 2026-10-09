@@ -1,4 +1,4 @@
-package net.mcreator.zingsprojectredhorn.client.renderer;
+package com.zing.zingsprojectredhorn.client.renderer;
 
 import net.minecraft.resources.Identifier;
 import net.minecraft.client.renderer.texture.OverlayTexture;
@@ -8,8 +8,8 @@ import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.entity.EntityRenderer;
 import net.minecraft.client.renderer.SubmitNodeCollector;
 
-import net.mcreator.zingsprojectredhorn.entity.ParasiteArrowEntityEntity;
-import net.mcreator.zingsprojectredhorn.client.model.Modelparasite_arrow_entity_model;
+import com.zing.zingsprojectredhorn.entity.ParasiteArrowEntityEntity;
+import com.zing.zingsprojectredhorn.client.model.Modelparasite_arrow_entity_model;
 
 import com.mojang.math.Axis;
 import com.mojang.blaze3d.vertex.PoseStack;

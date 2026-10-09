@@ -1,4 +1,4 @@
-package net.mcreator.zingsprojectredhorn.item;
+package com.zing.zingsprojectredhorn.item;
 
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.component.Consumables;
@@ -8,7 +8,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.entity.LivingEntity;
 
-import net.mcreator.zingsprojectredhorn.procedures.DiamondDragonrageBerryPlayerFinishesUsingItemProcedure;
+import com.zing.zingsprojectredhorn.procedures.DiamondDragonrageBerryPlayerFinishesUsingItemProcedure;
 
 public class DiamondDragonrageBerryItem extends Item {
 	public DiamondDragonrageBerryItem(Item.Properties properties) {

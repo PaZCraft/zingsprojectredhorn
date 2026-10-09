@@ -1,4 +1,4 @@
-package net.mcreator.zingsprojectredhorn.entity;
+package com.zing.zingsprojectredhorn.entity;
 
 import net.neoforged.neoforge.event.entity.RegisterSpawnPlacementsEvent;
 import net.neoforged.neoforge.event.EventHooks;
@@ -30,8 +30,8 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.component.DataComponents;
 
-import net.mcreator.zingsprojectredhorn.init.ZingsProjectRedHornModEntities;
-import net.mcreator.zingsprojectredhorn.init.ZingsProjectRedHornModBlocks;
+import com.zing.zingsprojectredhorn.init.ZingsProjectRedHornModEntities;
+import com.zing.zingsprojectredhorn.init.ZingsProjectRedHornModBlocks;
 
 public class IchigoEntity extends TamableAnimal {
 	public IchigoEntity(EntityType<IchigoEntity> type, Level world) {

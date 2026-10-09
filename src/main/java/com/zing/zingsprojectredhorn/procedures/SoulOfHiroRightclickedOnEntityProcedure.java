@@ -1,4 +1,4 @@
-package net.mcreator.zingsprojectredhorn.procedures;
+package com.zing.zingsprojectredhorn.procedures;
 
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.entity.EntitySpawnReason;
@@ -7,7 +7,7 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.zingsprojectredhorn.init.ZingsProjectRedHornModEntities;
+import com.zing.zingsprojectredhorn.init.ZingsProjectRedHornModEntities;
 
 public class SoulOfHiroRightclickedOnEntityProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {

@@ -1,4 +1,4 @@
-package net.mcreator.zingsprojectredhorn.init;
+package com.zing.zingsprojectredhorn.init;
 
 import net.neoforged.neoforge.client.renderstate.RegisterRenderStateModifiersEvent;
 import net.neoforged.fml.common.EventBusSubscriber;

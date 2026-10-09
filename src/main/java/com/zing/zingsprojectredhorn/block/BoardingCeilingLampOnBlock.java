@@ -1,4 +1,4 @@
-package net.mcreator.zingsprojectredhorn.block;
+package com.zing.zingsprojectredhorn.block;
 
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
@@ -15,7 +15,7 @@ import net.minecraft.world.InteractionResult;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.zingsprojectredhorn.procedures.BoardingCeilingLampOnOnBlockRightclickedProcedure;
+import com.zing.zingsprojectredhorn.procedures.BoardingCeilingLampOnOnBlockRightclickedProcedure;
 
 public class BoardingCeilingLampOnBlock extends Block {
 	private static final VoxelShape SHAPE = Shapes.or(box(6, 7, 6, 10, 8, 10), box(7, 8, 7, 9, 10, 9), box(3, 3, 3, 13, 7, 13), box(4, 2, 4, 12, 3, 12), box(4, 1, 4, 5, 2, 5), box(8, 1, 4, 9, 2, 5), box(11, 1, 4, 12, 2, 5), box(11, 1, 11, 12, 2, 12),

@@ -1,4 +1,4 @@
-package net.mcreator.zingsprojectredhorn.block;
+package com.zing.zingsprojectredhorn.block;
 
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
@@ -23,7 +23,7 @@ import net.minecraft.util.RandomSource;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.zingsprojectredhorn.procedures.GreenhouseLampRedstoneOnProcedure;
+import com.zing.zingsprojectredhorn.procedures.GreenhouseLampRedstoneOnProcedure;
 
 import javax.annotation.Nullable;
 

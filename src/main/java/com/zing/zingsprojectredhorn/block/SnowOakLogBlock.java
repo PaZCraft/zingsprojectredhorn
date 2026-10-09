@@ -1,4 +1,4 @@
-package net.mcreator.zingsprojectredhorn.block;
+package com.zing.zingsprojectredhorn.block;
 
 import net.minecraft.world.level.block.state.properties.EnumProperty;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;

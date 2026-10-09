@@ -1,4 +1,4 @@
-package net.mcreator.zingsprojectredhorn.world.teleporter;
+package com.zing.zingsprojectredhorn.world.teleporter;
 
 import net.neoforged.neoforge.registries.RegisterEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
@@ -24,7 +24,7 @@ import net.minecraft.core.Holder;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.zingsprojectredhorn.init.ZingsProjectRedHornModBlocks;
+import com.zing.zingsprojectredhorn.init.ZingsProjectRedHornModBlocks;
 
 import java.util.Optional;
 import java.util.Comparator;

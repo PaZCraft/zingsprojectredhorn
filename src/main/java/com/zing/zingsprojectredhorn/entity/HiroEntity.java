@@ -1,4 +1,4 @@
-package net.mcreator.zingsprojectredhorn.entity;
+package com.zing.zingsprojectredhorn.entity;
 
 import net.neoforged.neoforge.event.entity.RegisterSpawnPlacementsEvent;
 import net.neoforged.neoforge.event.EventHooks;
@@ -39,8 +39,8 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.component.DataComponents;
 import net.minecraft.core.HolderSet;
 
-import net.mcreator.zingsprojectredhorn.init.ZingsProjectRedHornModItems;
-import net.mcreator.zingsprojectredhorn.init.ZingsProjectRedHornModEntities;
+import com.zing.zingsprojectredhorn.init.ZingsProjectRedHornModItems;
+import com.zing.zingsprojectredhorn.init.ZingsProjectRedHornModEntities;
 
 public class HiroEntity extends TamableAnimal {
 	public HiroEntity(EntityType<HiroEntity> type, Level world) {

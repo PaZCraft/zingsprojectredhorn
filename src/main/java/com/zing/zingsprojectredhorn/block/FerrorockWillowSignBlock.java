@@ -1,10 +1,10 @@
-package net.mcreator.zingsprojectredhorn.block;
+package com.zing.zingsprojectredhorn.block;
 
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.StandingSignBlock;
 import net.minecraft.world.level.block.SoundType;
 
-import net.mcreator.zingsprojectredhorn.init.ZingsProjectRedHornModWoodTypes;
+import com.zing.zingsprojectredhorn.init.ZingsProjectRedHornModWoodTypes;
 
 public class FerrorockWillowSignBlock extends StandingSignBlock {
 	public FerrorockWillowSignBlock(BlockBehaviour.Properties properties) {

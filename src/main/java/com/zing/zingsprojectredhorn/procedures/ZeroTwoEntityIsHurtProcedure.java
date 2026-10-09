@@ -1,4 +1,4 @@
-package net.mcreator.zingsprojectredhorn.procedures;
+package com.zing.zingsprojectredhorn.procedures;
 
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.entity.LivingEntity;
@@ -11,7 +11,7 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.Registries;
 
-import net.mcreator.zingsprojectredhorn.init.ZingsProjectRedHornModMobEffects;
+import com.zing.zingsprojectredhorn.init.ZingsProjectRedHornModMobEffects;
 
 public class ZeroTwoEntityIsHurtProcedure {
 	public static void execute(LevelAccessor world, Entity entity, Entity sourceentity) {

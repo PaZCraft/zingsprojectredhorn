@@ -1,7 +1,7 @@
 /*
  *    MCreator note: This file will be REGENERATED on each build.
  */
-package net.mcreator.zingsprojectredhorn.init;
+package com.zing.zingsprojectredhorn.init;
 
 import net.neoforged.neoforge.client.event.EntityRenderersEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
@@ -13,7 +13,7 @@ import net.minecraft.client.model.object.boat.RaftModel;
 import net.minecraft.client.model.object.boat.BoatModel;
 import net.minecraft.client.model.geom.ModelLayerLocation;
 
-import net.mcreator.zingsprojectredhorn.client.model.*;
+import com.zing.zingsprojectredhorn.client.model.*;
 
 @EventBusSubscriber(Dist.CLIENT)
 public class ZingsProjectRedHornModModels {

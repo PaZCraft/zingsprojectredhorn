@@ -1,7 +1,7 @@
 /*
  *    MCreator note: This file will be REGENERATED on each build.
  */
-package net.mcreator.zingsprojectredhorn.init;
+package com.zing.zingsprojectredhorn.init;
 
 import net.neoforged.neoforge.registries.RegisterEvent;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -22,7 +22,7 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.Holder;
 
-import net.mcreator.zingsprojectredhorn.ZingsProjectRedHornMod;
+import com.zing.zingsprojectredhorn.ZingsProjectRedHornMod;
 
 import java.util.function.Supplier;
 import java.util.function.Predicate;

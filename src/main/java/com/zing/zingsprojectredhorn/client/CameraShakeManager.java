@@ -1,4 +1,4 @@
-package net.mcreator.zingsprojectredhorn.client;
+package com.zing.zingsprojectredhorn.client;
 
 import java.util.Random;
 

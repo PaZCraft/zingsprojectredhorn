@@ -1,4 +1,4 @@
-package net.mcreator.zingsprojectredhorn.item;
+package com.zing.zingsprojectredhorn.item;
 
 import net.minecraft.world.item.Item;
 

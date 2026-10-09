@@ -1,4 +1,4 @@
-package net.mcreator.zingsprojectredhorn.potion;
+package com.zing.zingsprojectredhorn.potion;
 
 import net.neoforged.neoforge.event.ModifyDefaultComponentsEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
@@ -17,8 +17,8 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.component.DataComponents;
 
-import net.mcreator.zingsprojectredhorn.init.ZingsProjectRedHornModMobEffects;
-import net.mcreator.zingsprojectredhorn.ZingsProjectRedHornMod;
+import com.zing.zingsprojectredhorn.init.ZingsProjectRedHornModMobEffects;
+import com.zing.zingsprojectredhorn.ZingsProjectRedHornMod;
 
 import java.util.List;
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package net.mcreator.zingsprojectredhorn.block;
+package com.zing.zingsprojectredhorn.block;
 
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
@@ -19,7 +19,7 @@ import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.zingsprojectredhorn.procedures.PlantationBulbRedstoneOnProcedure;
+import com.zing.zingsprojectredhorn.procedures.PlantationBulbRedstoneOnProcedure;
 
 import javax.annotation.Nullable;
 

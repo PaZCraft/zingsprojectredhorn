@@ -1,4 +1,4 @@
-package net.mcreator.zingsprojectredhorn.block;
+package com.zing.zingsprojectredhorn.block;
 
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
@@ -21,7 +21,7 @@ import net.minecraft.world.InteractionResult;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.zingsprojectredhorn.procedures.BoardingHouseBathroomBulbOnOnBlockRightclickedProcedure;
+import com.zing.zingsprojectredhorn.procedures.BoardingHouseBathroomBulbOnOnBlockRightclickedProcedure;
 
 import java.util.function.Function;
 

@@ -1,4 +1,4 @@
-package net.mcreator.zingsprojectredhorn.mixin;
+package com.zing.zingsprojectredhorn.mixin;
 
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.spongepowered.asm.mixin.injection.Inject;
@@ -14,7 +14,7 @@ import net.minecraft.world.level.biome.Biome;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.Identifier;
 
-import net.mcreator.zingsprojectredhorn.init.ZingsProjectRedHornModBiomes;
+import com.zing.zingsprojectredhorn.init.ZingsProjectRedHornModBiomes;
 
 import java.util.function.Function;
 

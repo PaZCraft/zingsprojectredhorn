@@ -1,11 +1,11 @@
-package net.mcreator.zingsprojectredhorn.block;
+package com.zing.zingsprojectredhorn.block;
 
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.WallSignBlock;
 import net.minecraft.world.level.block.SoundType;
 
-import net.mcreator.zingsprojectredhorn.init.ZingsProjectRedHornModWoodTypes;
-import net.mcreator.zingsprojectredhorn.init.ZingsProjectRedHornModBlocks;
+import com.zing.zingsprojectredhorn.init.ZingsProjectRedHornModWoodTypes;
+import com.zing.zingsprojectredhorn.init.ZingsProjectRedHornModBlocks;
 
 public class ZeroPlateaWallSignBlock extends WallSignBlock {
 	public ZeroPlateaWallSignBlock(BlockBehaviour.Properties properties) {

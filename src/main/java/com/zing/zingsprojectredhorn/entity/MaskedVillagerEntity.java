@@ -1,4 +1,4 @@
-package net.mcreator.zingsprojectredhorn.entity;
+package com.zing.zingsprojectredhorn.entity;
 
 import net.neoforged.neoforge.event.entity.RegisterSpawnPlacementsEvent;
 
@@ -19,7 +19,7 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.BuiltInRegistries;
 
-import net.mcreator.zingsprojectredhorn.init.ZingsProjectRedHornModItems;
+import com.zing.zingsprojectredhorn.init.ZingsProjectRedHornModItems;
 
 public class MaskedVillagerEntity extends Monster {
 	public MaskedVillagerEntity(EntityType<MaskedVillagerEntity> type, Level world) {

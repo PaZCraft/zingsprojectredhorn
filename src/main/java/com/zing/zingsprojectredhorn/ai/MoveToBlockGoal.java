@@ -1,4 +1,4 @@
-package net.mcreator.zingsprojectredhorn.ai;
+package com.zing.zingsprojectredhorn.ai;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.entity.ai.goal.Goal;

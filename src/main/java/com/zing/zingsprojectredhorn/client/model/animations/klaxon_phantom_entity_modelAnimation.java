@@ -1,4 +1,4 @@
-package net.mcreator.zingsprojectredhorn.client.model.animations;
+package com.zing.zingsprojectredhorn.client.model.animations;
 
 import net.minecraft.client.animation.KeyframeAnimations;
 import net.minecraft.client.animation.Keyframe;

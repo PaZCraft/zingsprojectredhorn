@@ -1,4 +1,4 @@
-package net.mcreator.zingsprojectredhorn.world;
+package com.zing.zingsprojectredhorn.world;
 
 import net.minecraft.world.level.saveddata.SavedDataType;
 import net.minecraft.world.level.saveddata.SavedData;

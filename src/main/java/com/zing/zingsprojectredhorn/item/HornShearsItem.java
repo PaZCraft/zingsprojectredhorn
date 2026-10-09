@@ -1,4 +1,4 @@
-package net.mcreator.zingsprojectredhorn.item;
+package com.zing.zingsprojectredhorn.item;
 
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.item.ShearsItem;

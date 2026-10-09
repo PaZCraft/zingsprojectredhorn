@@ -1,4 +1,4 @@
-package net.mcreator.zingsprojectredhorn.client;
+package com.zing.zingsprojectredhorn.client;
 
 import net.neoforged.neoforge.client.event.ViewportEvent;
 import net.neoforged.neoforge.client.event.ClientTickEvent;

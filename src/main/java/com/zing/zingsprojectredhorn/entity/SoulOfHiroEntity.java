@@ -1,4 +1,4 @@
-package net.mcreator.zingsprojectredhorn.entity;
+package com.zing.zingsprojectredhorn.entity;
 
 import net.neoforged.neoforge.event.entity.RegisterSpawnPlacementsEvent;
 import net.neoforged.neoforge.common.NeoForgeMod;
@@ -29,8 +29,8 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.BuiltInRegistries;
 
-import net.mcreator.zingsprojectredhorn.procedures.SoulOfZeroTwoRightclickedOnEntityProcedure;
-import net.mcreator.zingsprojectredhorn.init.ZingsProjectRedHornModEntities;
+import com.zing.zingsprojectredhorn.procedures.SoulOfZeroTwoRightclickedOnEntityProcedure;
+import com.zing.zingsprojectredhorn.init.ZingsProjectRedHornModEntities;
 
 public class SoulOfHiroEntity extends PathfinderMob {
 	public SoulOfHiroEntity(EntityType<SoulOfHiroEntity> type, Level world) {

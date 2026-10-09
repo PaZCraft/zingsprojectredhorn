@@ -1,4 +1,4 @@
-package net.mcreator.zingsprojectredhorn.client.renderer;
+package com.zing.zingsprojectredhorn.client.renderer;
 
 import net.neoforged.neoforge.client.renderstate.RegisterRenderStateModifiersEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
@@ -14,9 +14,9 @@ import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.animation.KeyframeAnimation;
 import net.minecraft.client.animation.AnimationDefinition;
 
-import net.mcreator.zingsprojectredhorn.entity.KlaxonZombieEntity;
-import net.mcreator.zingsprojectredhorn.client.model.animations.klaxon_zombie_entity_modelAnimation;
-import net.mcreator.zingsprojectredhorn.client.model.Modelklaxon_zombie_entity_model;
+import com.zing.zingsprojectredhorn.entity.KlaxonZombieEntity;
+import com.zing.zingsprojectredhorn.client.model.animations.klaxon_zombie_entity_modelAnimation;
+import com.zing.zingsprojectredhorn.client.model.Modelklaxon_zombie_entity_model;
 
 import java.util.Map;
 

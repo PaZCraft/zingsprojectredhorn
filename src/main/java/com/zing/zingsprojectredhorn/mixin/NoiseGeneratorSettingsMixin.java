@@ -1,4 +1,4 @@
-package net.mcreator.zingsprojectredhorn.mixin;
+package com.zing.zingsprojectredhorn.mixin;
 
 import org.spongepowered.asm.mixin.Unique;
 import org.spongepowered.asm.mixin.Mixin;
@@ -8,7 +8,7 @@ import net.minecraft.world.level.levelgen.NoiseGeneratorSettings;
 import net.minecraft.world.level.dimension.DimensionType;
 import net.minecraft.core.Holder;
 
-import net.mcreator.zingsprojectredhorn.init.ZingsProjectRedHornModBiomes;
+import com.zing.zingsprojectredhorn.init.ZingsProjectRedHornModBiomes;
 
 import com.llamalad7.mixinextras.injector.wrapoperation.Operation;
 import com.llamalad7.mixinextras.injector.wrapmethod.WrapMethod;

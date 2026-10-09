@@ -1,4 +1,4 @@
-package net.mcreator.zingsprojectredhorn.entity;
+package com.zing.zingsprojectredhorn.entity;
 
 import net.neoforged.neoforge.event.entity.RegisterSpawnPlacementsEvent;
 import net.neoforged.neoforge.common.NeoForgeMod;
@@ -29,8 +29,8 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.zingsprojectredhorn.procedures.KlaxonZombiePlaybackConditionProcedure;
-import net.mcreator.zingsprojectredhorn.init.ZingsProjectRedHornModEntities;
+import com.zing.zingsprojectredhorn.procedures.KlaxonZombiePlaybackConditionProcedure;
+import com.zing.zingsprojectredhorn.init.ZingsProjectRedHornModEntities;
 
 public class KlaxonZombieEntity extends Animal {
 	public final AnimationState animationState0 = new AnimationState();

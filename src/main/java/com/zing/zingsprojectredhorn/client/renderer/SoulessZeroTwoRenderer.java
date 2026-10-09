@@ -1,4 +1,4 @@
-package net.mcreator.zingsprojectredhorn.client.renderer;
+package com.zing.zingsprojectredhorn.client.renderer;
 
 import net.minecraft.resources.Identifier;
 import net.minecraft.client.renderer.entity.state.HumanoidRenderState;
@@ -9,7 +9,7 @@ import net.minecraft.client.renderer.entity.ArmorModelSet;
 import net.minecraft.client.model.geom.ModelLayers;
 import net.minecraft.client.model.HumanoidModel;
 
-import net.mcreator.zingsprojectredhorn.entity.SoulessZeroTwoEntity;
+import com.zing.zingsprojectredhorn.entity.SoulessZeroTwoEntity;
 
 public class SoulessZeroTwoRenderer extends HumanoidMobRenderer<SoulessZeroTwoEntity, HumanoidRenderState, HumanoidModel<HumanoidRenderState>> {
 	private final Identifier entityTexture = Identifier.parse("zings_project_red_horn:textures/entities/zero_two_souless.png");

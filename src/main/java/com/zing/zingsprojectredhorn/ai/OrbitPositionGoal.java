@@ -1,4 +1,4 @@
-package net.mcreator.zingsprojectredhorn.ai;
+package com.zing.zingsprojectredhorn.ai;
 
 import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.level.block.state.BlockState;

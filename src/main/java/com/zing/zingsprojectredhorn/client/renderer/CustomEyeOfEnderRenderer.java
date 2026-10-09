@@ -1,4 +1,4 @@
-package net.mcreator.zingsprojectredhorn.client.renderer;
+package com.zing.zingsprojectredhorn.client.renderer;
 
 import net.neoforged.neoforge.client.event.EntityRenderersEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
@@ -14,7 +14,7 @@ import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.entity.EntityRenderer;
 import net.minecraft.client.renderer.SubmitNodeCollector;
 
-import net.mcreator.zingsprojectredhorn.entity.CustomEyeOfEnderEntity;
+import com.zing.zingsprojectredhorn.entity.CustomEyeOfEnderEntity;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 

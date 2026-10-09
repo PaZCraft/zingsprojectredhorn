@@ -1,4 +1,4 @@
-package net.mcreator.zingsprojectredhorn.procedures;
+package com.zing.zingsprojectredhorn.procedures;
 
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
@@ -15,7 +15,7 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.zingsprojectredhorn.init.ZingsProjectRedHornModMobEffects;
+import com.zing.zingsprojectredhorn.init.ZingsProjectRedHornModMobEffects;
 
 public class KlaxonGooProjectileHitsLivingEntityProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {

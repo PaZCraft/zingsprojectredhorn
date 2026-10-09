@@ -1,4 +1,4 @@
-package net.mcreator.zingsprojectredhorn.mixin;
+package com.zing.zingsprojectredhorn.mixin;
 
 import org.spongepowered.asm.mixin.injection.ModifyArg;
 import org.spongepowered.asm.mixin.injection.At;

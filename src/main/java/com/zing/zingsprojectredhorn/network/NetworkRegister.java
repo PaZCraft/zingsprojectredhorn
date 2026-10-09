@@ -1,4 +1,4 @@
-package net.mcreator.zingsprojectredhorn.network;
+package com.zing.zingsprojectredhorn.network;
 
 import net.neoforged.neoforge.network.registration.PayloadRegistrar;
 import net.neoforged.neoforge.network.event.RegisterPayloadHandlersEvent;

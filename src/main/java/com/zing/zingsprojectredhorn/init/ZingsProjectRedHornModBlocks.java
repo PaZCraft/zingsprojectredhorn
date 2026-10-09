@@ -1,7 +1,7 @@
 /*
  *    MCreator note: This file will be REGENERATED on each build.
  */
-package net.mcreator.zingsprojectredhorn.init;
+package com.zing.zingsprojectredhorn.init;
 
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredBlock;
@@ -17,8 +17,8 @@ import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.client.renderer.Sheets;
 
-import net.mcreator.zingsprojectredhorn.block.*;
-import net.mcreator.zingsprojectredhorn.ZingsProjectRedHornMod;
+import com.zing.zingsprojectredhorn.block.*;
+import com.zing.zingsprojectredhorn.ZingsProjectRedHornMod;
 
 import java.util.function.Function;
 

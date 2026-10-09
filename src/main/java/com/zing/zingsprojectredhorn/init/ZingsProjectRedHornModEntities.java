@@ -1,4 +1,4 @@
-package net.mcreator.zingsprojectredhorn.init;
+package com.zing.zingsprojectredhorn.init;
 
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredHolder;
@@ -14,8 +14,8 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.Registries;
 
-import net.mcreator.zingsprojectredhorn.entity.*;
-import net.mcreator.zingsprojectredhorn.ZingsProjectRedHornMod;
+import com.zing.zingsprojectredhorn.entity.*;
+import com.zing.zingsprojectredhorn.ZingsProjectRedHornMod;
 
 @EventBusSubscriber
 public class ZingsProjectRedHornModEntities {

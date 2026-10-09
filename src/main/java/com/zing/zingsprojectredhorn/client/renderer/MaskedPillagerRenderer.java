@@ -1,4 +1,4 @@
-package net.mcreator.zingsprojectredhorn.client.renderer;
+package com.zing.zingsprojectredhorn.client.renderer;
 
 import net.minecraft.world.item.ItemDisplayContext;
 import net.minecraft.resources.Identifier;
@@ -10,7 +10,7 @@ import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.model.npc.VillagerModel;
 import net.minecraft.client.model.geom.ModelLayers;
 
-import net.mcreator.zingsprojectredhorn.entity.MaskedPillagerEntity;
+import com.zing.zingsprojectredhorn.entity.MaskedPillagerEntity;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 

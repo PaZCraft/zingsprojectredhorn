@@ -1,4 +1,4 @@
-package net.mcreator.zingsprojectredhorn.client;
+package com.zing.zingsprojectredhorn.client;
 
 import net.minecraft.client.gui.screens.inventory.InventoryScreen;
 import net.minecraft.client.Minecraft;

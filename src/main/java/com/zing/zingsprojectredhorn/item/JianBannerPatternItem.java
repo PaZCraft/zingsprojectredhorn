@@ -1,4 +1,4 @@
-package net.mcreator.zingsprojectredhorn.item;
+package com.zing.zingsprojectredhorn.item;
 
 import net.minecraft.world.level.block.entity.BannerPattern;
 import net.minecraft.world.item.Rarity;
@@ -8,7 +8,7 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.core.component.DataComponents;
 
-import net.mcreator.zingsprojectredhorn.ZingsProjectRedHornMod;
+import com.zing.zingsprojectredhorn.ZingsProjectRedHornMod;
 
 public class JianBannerPatternItem extends Item {
 	public static final TagKey<BannerPattern> PROVIDED_PATTERNS = TagKey.create(Registries.BANNER_PATTERN, Identifier.fromNamespaceAndPath(ZingsProjectRedHornMod.MODID, "pattern_item/jian_banner_pattern"));

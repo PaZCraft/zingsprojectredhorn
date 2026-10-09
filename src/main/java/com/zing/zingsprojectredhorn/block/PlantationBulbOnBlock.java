@@ -1,4 +1,4 @@
-package net.mcreator.zingsprojectredhorn.block;
+package com.zing.zingsprojectredhorn.block;
 
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
@@ -25,8 +25,8 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.zingsprojectredhorn.procedures.PlantationBulbOnRedstoneOffProcedure;
-import net.mcreator.zingsprojectredhorn.init.ZingsProjectRedHornModBlocks;
+import com.zing.zingsprojectredhorn.procedures.PlantationBulbOnRedstoneOffProcedure;
+import com.zing.zingsprojectredhorn.init.ZingsProjectRedHornModBlocks;
 
 import javax.annotation.Nullable;
 

@@ -1,4 +1,4 @@
-package net.mcreator.zingsprojectredhorn.procedures;
+package com.zing.zingsprojectredhorn.procedures;
 
 import net.minecraft.world.level.storage.TagValueInput;
 import net.minecraft.world.level.block.state.properties.Property;
@@ -13,7 +13,7 @@ import net.minecraft.nbt.CompoundTag;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.zingsprojectredhorn.init.ZingsProjectRedHornModBlocks;
+import com.zing.zingsprojectredhorn.init.ZingsProjectRedHornModBlocks;
 
 public class GreenhouseLampRedstoneOnProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {

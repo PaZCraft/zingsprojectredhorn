@@ -1,4 +1,4 @@
-package net.mcreator.zingsprojectredhorn.block;
+package com.zing.zingsprojectredhorn.block;
 
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.level.block.state.BlockState;
@@ -11,7 +11,7 @@ import net.minecraft.world.InteractionResult;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.zingsprojectredhorn.procedures.VirtualGateOnBlockRightclickedProcedure;
+import com.zing.zingsprojectredhorn.procedures.VirtualGateOnBlockRightclickedProcedure;
 
 public class VirtualGateBlock extends IronBarsBlock {
 	public VirtualGateBlock(BlockBehaviour.Properties properties) {

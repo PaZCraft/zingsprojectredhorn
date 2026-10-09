@@ -1,12 +1,12 @@
-package net.mcreator.zingsprojectredhorn.client.renderer;
+package com.zing.zingsprojectredhorn.client.renderer;
 
 import net.minecraft.resources.Identifier;
 import net.minecraft.client.renderer.entity.state.LivingEntityRenderState;
 import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 
-import net.mcreator.zingsprojectredhorn.entity.MeekoniEntity;
-import net.mcreator.zingsprojectredhorn.client.model.Modelmeekoni_entity_model;
+import com.zing.zingsprojectredhorn.entity.MeekoniEntity;
+import com.zing.zingsprojectredhorn.client.model.Modelmeekoni_entity_model;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 

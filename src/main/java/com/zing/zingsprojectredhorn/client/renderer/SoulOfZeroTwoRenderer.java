@@ -1,4 +1,4 @@
-package net.mcreator.zingsprojectredhorn.client.renderer;
+package com.zing.zingsprojectredhorn.client.renderer;
 
 import net.minecraft.resources.Identifier;
 import net.minecraft.client.renderer.texture.OverlayTexture;
@@ -14,7 +14,7 @@ import net.minecraft.client.renderer.SubmitNodeCollector;
 import net.minecraft.client.model.geom.ModelLayers;
 import net.minecraft.client.model.HumanoidModel;
 
-import net.mcreator.zingsprojectredhorn.entity.SoulOfZeroTwoEntity;
+import com.zing.zingsprojectredhorn.entity.SoulOfZeroTwoEntity;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 

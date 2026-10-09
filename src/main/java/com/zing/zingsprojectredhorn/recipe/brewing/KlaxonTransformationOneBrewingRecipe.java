@@ -1,4 +1,4 @@
-package net.mcreator.zingsprojectredhorn.recipe.brewing;
+package com.zing.zingsprojectredhorn.recipe.brewing;
 
 import net.neoforged.neoforge.event.brewing.RegisterBrewingRecipesEvent;
 import net.neoforged.neoforge.common.brewing.IBrewingRecipe;
@@ -17,7 +17,7 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.component.DataComponents;
 import net.minecraft.core.HolderSet;
 
-import net.mcreator.zingsprojectredhorn.init.ZingsProjectRedHornModPotions;
+import com.zing.zingsprojectredhorn.init.ZingsProjectRedHornModPotions;
 
 @EventBusSubscriber
 public class KlaxonTransformationOneBrewingRecipe implements IBrewingRecipe {

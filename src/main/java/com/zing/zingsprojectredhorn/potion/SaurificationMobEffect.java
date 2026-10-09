@@ -1,4 +1,4 @@
-package net.mcreator.zingsprojectredhorn.potion;
+package com.zing.zingsprojectredhorn.potion;
 
 import net.neoforged.neoforge.common.NeoForgeMod;
 
@@ -8,7 +8,7 @@ import net.minecraft.world.effect.MobEffectCategory;
 import net.minecraft.world.effect.MobEffect;
 import net.minecraft.resources.Identifier;
 
-import net.mcreator.zingsprojectredhorn.ZingsProjectRedHornMod;
+import com.zing.zingsprojectredhorn.ZingsProjectRedHornMod;
 
 public class SaurificationMobEffect extends MobEffect {
 	public SaurificationMobEffect() {

@@ -1,4 +1,4 @@
-package net.mcreator.zingsprojectredhorn.client.renderer.item;
+package com.zing.zingsprojectredhorn.client.renderer.item;
 
 import net.neoforged.neoforge.client.extensions.common.RegisterClientExtensionsEvent;
 import net.neoforged.neoforge.client.extensions.common.IClientItemExtensions;
@@ -14,8 +14,8 @@ import net.minecraft.client.model.Model;
 import net.minecraft.client.model.HumanoidModel;
 import net.minecraft.client.Minecraft;
 
-import net.mcreator.zingsprojectredhorn.init.ZingsProjectRedHornModItems;
-import net.mcreator.zingsprojectredhorn.client.model.Modelonium_helmet;
+import com.zing.zingsprojectredhorn.init.ZingsProjectRedHornModItems;
+import com.zing.zingsprojectredhorn.client.model.Modelonium_helmet;
 
 import java.util.Map;
 import java.util.Collections;

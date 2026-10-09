@@ -1,4 +1,4 @@
-package net.mcreator.zingsprojectredhorn.client;
+package com.zing.zingsprojectredhorn.client;
 
 import org.joml.Vector4f;
 import org.joml.Vector3f;

@@ -1,4 +1,4 @@
-package net.mcreator.zingsprojectredhorn.client.renderer;
+package com.zing.zingsprojectredhorn.client.renderer;
 
 import net.neoforged.neoforge.client.renderstate.RegisterRenderStateModifiersEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
@@ -22,8 +22,8 @@ import net.minecraft.client.renderer.SubmitNodeCollector;
 import net.minecraft.client.model.geom.ModelLayers;
 import net.minecraft.client.model.HumanoidModel;
 
-import net.mcreator.zingsprojectredhorn.procedures.HiroDisplayConditionProcedure;
-import net.mcreator.zingsprojectredhorn.entity.HiroEntity;
+import com.zing.zingsprojectredhorn.procedures.HiroDisplayConditionProcedure;
+import com.zing.zingsprojectredhorn.entity.HiroEntity;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 

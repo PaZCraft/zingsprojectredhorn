@@ -1,10 +1,10 @@
-package net.mcreator.zingsprojectredhorn.procedures;
+package com.zing.zingsprojectredhorn.procedures;
 
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.particles.SimpleParticleType;
 
-import net.mcreator.zingsprojectredhorn.init.ZingsProjectRedHornModParticleTypes;
+import com.zing.zingsprojectredhorn.init.ZingsProjectRedHornModParticleTypes;
 
 public class KlaxonBeamWhileProjectileFlyingTickProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {

@@ -1,4 +1,4 @@
-package net.mcreator.zingsprojectredhorn.math;
+package com.zing.zingsprojectredhorn.math;
 
 import java.util.concurrent.ConcurrentHashMap;
 

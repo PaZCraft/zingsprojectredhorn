@@ -1,4 +1,4 @@
-package net.mcreator.zingsprojectredhorn.block;
+package com.zing.zingsprojectredhorn.block;
 
 import org.slf4j.Logger;
 
@@ -32,8 +32,8 @@ import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.zingsprojectredhorn.world.teleporter.XenonTeleporter;
-import net.mcreator.zingsprojectredhorn.world.teleporter.XenonPortalShape;
+import com.zing.zingsprojectredhorn.world.teleporter.XenonTeleporter;
+import com.zing.zingsprojectredhorn.world.teleporter.XenonPortalShape;
 
 import javax.annotation.Nullable;
 

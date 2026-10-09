@@ -1,4 +1,4 @@
-package net.mcreator.zingsprojectredhorn.client.renderer;
+package com.zing.zingsprojectredhorn.client.renderer;
 
 import net.neoforged.neoforge.client.event.RenderLivingEvent;
 import net.neoforged.fml.common.EventBusSubscriber;

@@ -1,4 +1,4 @@
-package net.mcreator.zingsprojectredhorn.world.teleporter;
+package com.zing.zingsprojectredhorn.world.teleporter;
 
 import org.apache.commons.lang3.mutable.MutableInt;
 
@@ -19,7 +19,7 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.zingsprojectredhorn.init.ZingsProjectRedHornModBlocks;
+import com.zing.zingsprojectredhorn.init.ZingsProjectRedHornModBlocks;
 
 import javax.annotation.Nullable;
 

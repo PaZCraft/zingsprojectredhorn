@@ -1,4 +1,4 @@
-package net.mcreator.zingsprojectredhorn.client.model;
+package com.zing.zingsprojectredhorn.client.model;
 
 import net.minecraft.util.Mth;
 import net.minecraft.resources.Identifier;

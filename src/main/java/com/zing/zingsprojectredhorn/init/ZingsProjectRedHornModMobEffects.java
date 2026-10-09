@@ -1,7 +1,7 @@
 /*
  *	MCreator note: This file will be REGENERATED on each build.
  */
-package net.mcreator.zingsprojectredhorn.init;
+package com.zing.zingsprojectredhorn.init;
 
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredHolder;
@@ -9,10 +9,10 @@ import net.neoforged.neoforge.registries.DeferredHolder;
 import net.minecraft.world.effect.MobEffect;
 import net.minecraft.core.registries.Registries;
 
-import net.mcreator.zingsprojectredhorn.potion.ZeroTwosCurseMobEffect;
-import net.mcreator.zingsprojectredhorn.potion.SaurificationMobEffect;
-import net.mcreator.zingsprojectredhorn.potion.KlaxonBurningMobEffect;
-import net.mcreator.zingsprojectredhorn.ZingsProjectRedHornMod;
+import com.zing.zingsprojectredhorn.potion.ZeroTwosCurseMobEffect;
+import com.zing.zingsprojectredhorn.potion.SaurificationMobEffect;
+import com.zing.zingsprojectredhorn.potion.KlaxonBurningMobEffect;
+import com.zing.zingsprojectredhorn.ZingsProjectRedHornMod;
 
 public class ZingsProjectRedHornModMobEffects {
 	public static final DeferredRegister<MobEffect> REGISTRY = DeferredRegister.create(Registries.MOB_EFFECT, ZingsProjectRedHornMod.MODID);
