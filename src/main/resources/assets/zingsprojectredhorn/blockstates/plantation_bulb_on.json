@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "zings_project_red_horn:block/plantation_bulb_on",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "zings_project_red_horn:block/plantation_bulb_on"
+    },
+    "axis=z": {
+      "model": "zings_project_red_horn:block/plantation_bulb_on",
+      "x": 90
+    }
+  }
+}

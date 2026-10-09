@@ -1,0 +1,8 @@
+{
+  "parent": "zings_project_red_horn:custom/zero_two_picture_book_model",
+  "textures": {
+    "all": "zings_project_red_horn:block/zero_two_picture_book",
+    "particle": "zings_project_red_horn:block/zero_two_picture_book",
+    "0": "zings_project_red_horn:block/zero_two_picture_book"
+  }
+}

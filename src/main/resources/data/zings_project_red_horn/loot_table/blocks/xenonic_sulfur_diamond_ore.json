@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "zings_project_red_horn:blocks/xenonic_sulfur_diamond_ore",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            },
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_wall_post",
+  "textures": {
+    "wall": "zings_project_red_horn:block/hironium_bricks",
+    "particle": "zings_project_red_horn:block/hironium_bricks"
+  }
+}

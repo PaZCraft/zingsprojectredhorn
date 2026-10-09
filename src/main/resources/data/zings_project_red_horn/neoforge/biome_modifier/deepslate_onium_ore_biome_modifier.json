@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#zings_project_red_horn:generates_onium_ores",
+  "features": "zings_project_red_horn:deepslate_onium_ore",
+  "step": "underground_ores"
+}

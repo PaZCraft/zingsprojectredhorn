@@ -1,0 +1,31 @@
+{
+  "entries": [
+    {
+      "enum": "net/minecraft/world/entity/raid/Raid$RaiderType",
+      "name": "ZINGS_PROJECT_RED_HORN_MASKED_VINDICATOR",
+      "constructor": "(Ljava/util/function/Supplier;[I)V",
+      "parameters": {
+        "class": "net/mcreator/zingsprojectredhorn/entity/MaskedVindicatorEntity",
+        "field": "RAIDER_TYPE"
+      }
+    },
+    {
+      "enum": "net/minecraft/world/entity/raid/Raid$RaiderType",
+      "name": "ZINGS_PROJECT_RED_HORN_MASKED_PILLAGER",
+      "constructor": "(Ljava/util/function/Supplier;[I)V",
+      "parameters": {
+        "class": "net/mcreator/zingsprojectredhorn/entity/MaskedPillagerEntity",
+        "field": "RAIDER_TYPE"
+      }
+    },
+    {
+      "enum": "net/minecraft/world/entity/raid/Raid$RaiderType",
+      "name": "ZINGS_PROJECT_RED_HORN_MASKED_ILLUSIONER",
+      "constructor": "(Ljava/util/function/Supplier;[I)V",
+      "parameters": {
+        "class": "net/mcreator/zingsprojectredhorn/entity/MaskedIllusionerEntity",
+        "field": "RAIDER_TYPE"
+      }
+    }
+  ]
+}

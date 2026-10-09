@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "zings_project_red_horn:block/bathroom_drain",
+    "up": "zings_project_red_horn:block/bathroom_drain",
+    "north": "zings_project_red_horn:block/bathroom_drain",
+    "east": "zings_project_red_horn:block/bathroom_drain",
+    "south": "zings_project_red_horn:block/bathroom_drain",
+    "west": "zings_project_red_horn:block/bathroom_drain",
+    "particle": "zings_project_red_horn:block/bathroom_drain"
+  }
+}

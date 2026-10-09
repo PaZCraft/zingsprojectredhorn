@@ -1,0 +1,8 @@
+{
+  "parent": "block/door_top_right",
+  "textures": {
+    "particle": "zings_project_red_horn:block/plantation_door_bottom",
+    "bottom": "zings_project_red_horn:block/plantation_door_bottom",
+    "top": "zings_project_red_horn:block/plantation_door_top"
+  }
+}

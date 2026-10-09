@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": {
+    "type": "neoforge:any"
+  },
+  "features": "zings_project_red_horn:dragonrage_fern",
+  "step": "vegetal_decoration"
+}

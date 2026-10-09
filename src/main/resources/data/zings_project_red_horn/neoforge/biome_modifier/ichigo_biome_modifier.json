@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#zings_project_red_horn:spawns_characters",
+  "spawners": {
+    "type": "zings_project_red_horn:ichigo",
+    "weight": 5,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

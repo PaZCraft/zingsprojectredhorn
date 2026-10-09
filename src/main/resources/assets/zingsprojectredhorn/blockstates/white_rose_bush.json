@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "zings_project_red_horn:block/white_rose_bush"
+    },
+    "half=lower": {
+      "model": "zings_project_red_horn:block/white_rose_bush_bottom"
+    }
+  }
+}

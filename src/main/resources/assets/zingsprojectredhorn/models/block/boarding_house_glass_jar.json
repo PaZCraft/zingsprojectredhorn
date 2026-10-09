@@ -1,0 +1,8 @@
+{
+  "parent": "zings_project_red_horn:custom/boarding_glass_jar_model",
+  "textures": {
+    "all": "zings_project_red_horn:block/boarding_house_glass_jar",
+    "particle": "zings_project_red_horn:block/boarding_house_glass_jar",
+    "0": "zings_project_red_horn:block/boarding_house_glass_jar"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "diamond_dragonrage_berry",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": "minecraft:diamond",
+    "b": "zings_project_red_horn:dragonrage_berry"
+  },
+  "result": {
+    "id": "zings_project_red_horn:diamond_dragonrage_berry",
+    "count": 1
+  }
+}

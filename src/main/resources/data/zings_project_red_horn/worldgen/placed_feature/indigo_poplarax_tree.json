@@ -1,0 +1,9 @@
+{
+  "feature": "zings_project_red_horn:indigo_poplarax_tree",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 5
+    }
+  ]
+}

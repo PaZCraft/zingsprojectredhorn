@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "dark_forest",
+    "forest",
+    "taiga"
+  ],
+  "features": "zings_project_red_horn:muddy_lake",
+  "step": "lakes"
+}

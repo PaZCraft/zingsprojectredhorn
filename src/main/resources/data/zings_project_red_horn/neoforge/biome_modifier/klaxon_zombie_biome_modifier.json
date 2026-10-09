@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#zings_project_red_horn:xenon_biomes",
+  "spawners": {
+    "type": "zings_project_red_horn:klaxon_zombie",
+    "weight": 20,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

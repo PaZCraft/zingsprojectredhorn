@@ -1,0 +1,11 @@
+{
+  "wants": {
+    "id": "zings_project_red_horn:class_id"
+  },
+  "gives": {
+    "id": "zings_project_red_horn:plantation_bulb_on"
+  },
+  "max_uses": 10,
+  "xp": 5,
+  "reputation_discount": 0.05
+}

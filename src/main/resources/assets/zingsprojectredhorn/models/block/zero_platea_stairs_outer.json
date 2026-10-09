@@ -1,0 +1,9 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "particle": "zings_project_red_horn:block/zero_platea_planks",
+    "bottom": "zings_project_red_horn:block/zero_platea_planks",
+    "top": "zings_project_red_horn:block/zero_platea_planks",
+    "side": "zings_project_red_horn:block/zero_platea_planks"
+  }
+}

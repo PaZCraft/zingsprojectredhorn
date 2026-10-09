@@ -1,0 +1,17 @@
+{
+  "wants": {
+    "id": "minecraft:emerald",
+    "count": 7
+  },
+  "additional_wants": {
+    "id": "minecraft:honey_block",
+    "count": 5
+  },
+  "gives": {
+    "id": "zings_project_red_horn:honey_raw_mutton",
+    "count": 10
+  },
+  "max_uses": 10,
+  "xp": 5,
+  "reputation_discount": 0.05
+}

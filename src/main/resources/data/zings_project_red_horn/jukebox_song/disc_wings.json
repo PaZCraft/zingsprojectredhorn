@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "item.zings_project_red_horn.disc_wings.desc"
+  },
+  "length_in_seconds": 140,
+  "sound_event": "zings_project_red_horn:music_disc.wings"
+}

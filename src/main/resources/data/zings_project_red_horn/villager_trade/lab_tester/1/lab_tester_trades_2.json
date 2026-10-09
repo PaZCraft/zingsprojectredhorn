@@ -1,0 +1,13 @@
+{
+  "wants": {
+    "id": "zings_project_red_horn:white_rose_bush",
+    "count": 5
+  },
+  "gives": {
+    "id": "zings_project_red_horn:zeronium_horn_fragment",
+    "count": 5
+  },
+  "max_uses": 10,
+  "xp": 5,
+  "reputation_discount": 0.05
+}

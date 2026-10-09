@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "zings_project_red_horn:moratorium_beach",
+  "features": "zings_project_red_horn:ferrorock_willow_tree",
+  "step": "vegetal_decoration"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "zings_project_red_horn:custom/boarding_house_bathroom_bulb_model",
+  "textures": {
+    "all": "zings_project_red_horn:block/bathroom_bulb_off",
+    "particle": "zings_project_red_horn:block/bathroom_bulb_off",
+    "0": "zings_project_red_horn:block/bathroom_bulb_base",
+    "1": "zings_project_red_horn:block/bathroom_bulb_off"
+  }
+}

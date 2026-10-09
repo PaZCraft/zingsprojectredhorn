@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "zings_project_red_horn:windy_snowy_taiga_plains",
+    "snowy_plains",
+    "snowy_taiga"
+  ],
+  "features": "zings_project_red_horn:giant_snow_oak_tree",
+  "step": "surface_structures"
+}

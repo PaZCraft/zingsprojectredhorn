@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "zings_project_red_horn:block/stripped_zero_platea_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "zings_project_red_horn:block/stripped_zero_platea_log"
+    },
+    "axis=z": {
+      "model": "zings_project_red_horn:block/stripped_zero_platea_log",
+      "x": 90
+    }
+  }
+}

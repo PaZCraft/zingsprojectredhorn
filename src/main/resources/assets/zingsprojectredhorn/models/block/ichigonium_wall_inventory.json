@@ -1,0 +1,7 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "zings_project_red_horn:block/ichigonium_bricks",
+    "particle": "zings_project_red_horn:block/ichigonium_bricks"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "zings_project_red_horn:block/zero_shards",
+    "particle": "zings_project_red_horn:block/zero_shards"
+  }
+}

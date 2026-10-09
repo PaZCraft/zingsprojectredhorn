@@ -1,0 +1,14 @@
+{
+  "wants": {
+    "id": "minecraft:emerald"
+  },
+  "additional_wants": {
+    "id": "zings_project_red_horn:hironium"
+  },
+  "gives": {
+    "id": "zings_project_red_horn:hiro_spawn_egg"
+  },
+  "max_uses": 10,
+  "xp": 5,
+  "reputation_discount": 0.05
+}

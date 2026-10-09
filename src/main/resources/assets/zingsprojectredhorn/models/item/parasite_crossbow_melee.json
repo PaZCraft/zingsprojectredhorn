@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "zings_project_red_horn:item/parasite_crossbow"
+  }
+}

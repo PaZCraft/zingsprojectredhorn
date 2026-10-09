@@ -1,0 +1,7 @@
+{
+  "parent": "block/button",
+  "textures": {
+    "texture": "zings_project_red_horn:block/poplarax_planks",
+    "particle": "zings_project_red_horn:block/poplarax_planks"
+  }
+}

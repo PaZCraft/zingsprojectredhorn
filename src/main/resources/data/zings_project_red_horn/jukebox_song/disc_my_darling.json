@@ -1,0 +1,8 @@
+{
+  "comparator_output": 2,
+  "description": {
+    "translate": "item.zings_project_red_horn.disc_my_darling.desc"
+  },
+  "length_in_seconds": 110,
+  "sound_event": "zings_project_red_horn:music_disc.my_darling"
+}

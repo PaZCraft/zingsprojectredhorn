@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "zings_project_red_horn:disc_wings"
+    },
+    "title": {
+      "translate": "advancements.never_let_me_go.title"
+    },
+    "description": {
+      "translate": "advancements.never_let_me_go.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "never_let_me_go_0": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:cherry_sapling"
+          }
+        ]
+      }
+    },
+    "never_let_me_go_2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "zings_project_red_horn:disc_wings",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "zings_project_red_horn:stargazers"
+}

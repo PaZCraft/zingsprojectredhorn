@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_orientable_trapdoor_top",
+  "textures": {
+    "texture": "zings_project_red_horn:block/stripped_zero_platea_log_top",
+    "particle": "zings_project_red_horn:block/stripped_zero_platea_log_top"
+  }
+}

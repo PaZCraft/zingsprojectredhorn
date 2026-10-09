@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "zings_project_red_horn:honey_raw_porkchop"
+    },
+    "title": {
+      "translate": "advancements.what_it_means_to_connect.title"
+    },
+    "description": {
+      "translate": "advancements.what_it_means_to_connect.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "what_it_means_to_connect_0": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "zings_project_red_horn:honey_raw_porkchop"
+        }
+      }
+    },
+    "what_it_means_to_connect_1": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "zings_project_red_horn:honey_raw_mutton"
+        }
+      }
+    },
+    "what_it_means_to_connect_2": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "zings_project_red_horn:honey_raw_beef"
+        }
+      }
+    }
+  },
+  "parent": "zings_project_red_horn:alone_and_lonesome"
+}

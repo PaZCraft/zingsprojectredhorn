@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "zings_project_red_horn:windy_snowy_taiga_plains",
+    "zings_project_red_horn:dried_flatlands"
+  ],
+  "features": "zings_project_red_horn:greenhouse_lilac_patch",
+  "step": "vegetal_decoration"
+}

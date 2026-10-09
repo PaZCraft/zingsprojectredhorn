@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "zings_project_red_horn:block/virtual_gate_standard"
+  },
+  "render_type": "translucent"
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "group": "zeronium_ingot",
+  "category": "misc",
+  "experience": 2,
+  "cookingtime": 195,
+  "ingredient": "zings_project_red_horn:zeronium",
+  "result": {
+    "id": "zings_project_red_horn:zeronium_ingot"
+  }
+}

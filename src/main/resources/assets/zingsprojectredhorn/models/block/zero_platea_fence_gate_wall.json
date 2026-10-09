@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_fence_gate_wall",
+  "textures": {
+    "texture": "zings_project_red_horn:block/zero_platea_planks",
+    "particle": "zings_project_red_horn:block/zero_platea_planks"
+  }
+}

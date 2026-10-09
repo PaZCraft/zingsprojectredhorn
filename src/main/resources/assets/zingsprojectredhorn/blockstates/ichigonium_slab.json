@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "zings_project_red_horn:block/ichigonium_slab"
+    },
+    "type=top": {
+      "model": "zings_project_red_horn:block/ichigonium_slab_top"
+    },
+    "type=double": {
+      "model": "zings_project_red_horn:block/ichigonium_slab_full"
+    }
+  }
+}

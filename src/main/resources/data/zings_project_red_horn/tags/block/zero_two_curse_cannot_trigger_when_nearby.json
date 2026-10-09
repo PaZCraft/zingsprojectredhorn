@@ -1,0 +1,31 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:carrots",
+    "minecraft:oak_planks",
+    "minecraft:spruce_planks",
+    "minecraft:bamboo_planks",
+    "minecraft:weeping_vines_plant",
+    "minecraft:chorus_plant",
+    "minecraft:acacia_planks",
+    "minecraft:dark_oak_planks",
+    "minecraft:birch_planks",
+    "minecraft:pale_oak_planks",
+    "minecraft:jungle_planks",
+    "minecraft:potatoes",
+    "minecraft:twisting_vines_plant",
+    "minecraft:mangrove_planks",
+    "minecraft:tnt",
+    "minecraft:cave_vines_plant",
+    "minecraft:pitcher_plant",
+    "zings_project_red_horn:snow_oak_planks",
+    "minecraft:lilac",
+    "minecraft:sunflower",
+    "minecraft:large_fern",
+    "minecraft:tall_grass",
+    "minecraft:kelp_plant",
+    "minecraft:peony",
+    "minecraft:cherry_planks",
+    "minecraft:rose_bush"
+  ]
+}

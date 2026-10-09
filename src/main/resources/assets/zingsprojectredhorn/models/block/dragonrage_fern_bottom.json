@@ -1,0 +1,7 @@
+{
+  "parent": "block/tinted_cross",
+  "textures": {
+    "cross": "zings_project_red_horn:block/dragonrage_fern_bottom",
+    "particle": "zings_project_red_horn:block/dragonrage_fern_top"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/end_rod",
+  "textures": {
+    "end_rod": "zings_project_red_horn:block/parasite_rod",
+    "particle": "zings_project_red_horn:block/parasite_rod"
+  }
+}

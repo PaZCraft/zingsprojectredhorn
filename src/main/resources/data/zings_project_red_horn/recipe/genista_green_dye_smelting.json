@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "group": "genista_green_dye",
+  "category": "misc",
+  "experience": 10,
+  "cookingtime": 2000,
+  "ingredient": "zings_project_red_horn:genista",
+  "result": {
+    "id": "zings_project_red_horn:genista_green_dye"
+  }
+}

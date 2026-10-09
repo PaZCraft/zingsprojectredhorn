@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "zings_project_red_horn:block/boarding_house_chair"
+    },
+    "facing=east": {
+      "model": "zings_project_red_horn:block/boarding_house_chair",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "zings_project_red_horn:block/boarding_house_chair",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "zings_project_red_horn:block/boarding_house_chair",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:red_tulip",
+    "zings_project_red_horn:honey_raw_porkchop",
+    "minecraft:cherry_sapling",
+    "minecraft:red_mushroom",
+    "minecraft:pink_tulip",
+    "minecraft:honey_block",
+    "minecraft:water_bucket",
+    "minecraft:honeycomb",
+    "minecraft:honey_bottle",
+    "zings_project_red_horn:glass_piece",
+    "minecraft:pink_petals",
+    "minecraft:honeycomb_block",
+    "zings_project_red_horn:honey_raw_beef",
+    "zings_project_red_horn:honey_raw_mutton",
+    "minecraft:poppy",
+    "minecraft:rose_bush"
+  ]
+}

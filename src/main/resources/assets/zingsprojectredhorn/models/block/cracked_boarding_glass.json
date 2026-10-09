@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "zings_project_red_horn:block/cracked_boarding_glass",
+    "particle": "zings_project_red_horn:block/cracked_boarding_glass"
+  }
+}

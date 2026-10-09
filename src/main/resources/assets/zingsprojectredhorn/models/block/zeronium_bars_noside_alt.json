@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_glass_pane_noside_alt",
+  "textures": {
+    "pane": "zings_project_red_horn:block/zeronium_bars",
+    "particle": "zings_project_red_horn:block/zeronium_bars"
+  }
+}

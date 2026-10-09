@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "zings_project_red_horn:block/yellow_lounge_cloth_slab"
+    },
+    "type=top": {
+      "model": "zings_project_red_horn:block/yellow_lounge_cloth_slab_top"
+    },
+    "type=double": {
+      "model": "zings_project_red_horn:block/yellow_lounge_cloth_slab_full"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "zings_project_red_horn:abandoned_jukebox"
+    },
+    "title": {
+      "translate": "advancements.shooting_star_moratorium.title"
+    },
+    "description": {
+      "translate": "advancements.shooting_star_moratorium.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "shooting_star_moratorium_0": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "zings_project_red_horn:moratorium_beach"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "zings_project_red_horn:your_thorn_my_badge"
+}

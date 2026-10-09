@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "fence",
+  "category": "building",
+  "pattern": [
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": "zings_project_red_horn:zero_platea_planks",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "zings_project_red_horn:zero_platea_fence",
+    "count": 3
+  }
+}

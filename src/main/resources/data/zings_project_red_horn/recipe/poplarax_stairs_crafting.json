@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "stairs",
+  "category": "building",
+  "pattern": [
+    "a  ",
+    "aa ",
+    "aaa"
+  ],
+  "key": {
+    "a": "zings_project_red_horn:poplarax_planks"
+  },
+  "result": {
+    "id": "zings_project_red_horn:poplarax_stairs",
+    "count": 4
+  }
+}

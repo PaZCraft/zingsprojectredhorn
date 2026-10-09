@@ -1,0 +1,9 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "zings_project_red_horn:block/zeronium_bricks",
+    "bottom": "zings_project_red_horn:block/zeronium_bricks",
+    "top": "zings_project_red_horn:block/zeronium_bricks",
+    "side": "zings_project_red_horn:block/zeronium_bricks"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "feature": "zings_project_red_horn:giant_cherry_tree",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 10
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "category": "building",
+  "ingredients": [
+    "zings_project_red_horn:poplarax_log"
+  ],
+  "result": {
+    "id": "zings_project_red_horn:poplarax_planks",
+    "count": 4
+  }
+}

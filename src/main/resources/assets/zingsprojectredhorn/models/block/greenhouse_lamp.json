@@ -1,0 +1,10 @@
+{
+  "parent": "zings_project_red_horn:custom/greenhouse_lamp",
+  "textures": {
+    "all": "zings_project_red_horn:block/greenhouse_lamp_bulb_off",
+    "particle": "zings_project_red_horn:block/greenhouse_lamp_bulb_off",
+    "bulb": "zings_project_red_horn:block/greenhouse_lamp_bulb_off",
+    "case": "zings_project_red_horn:block/greenhouse_lamp_case",
+    "base": "zings_project_red_horn:block/greenhouse_lamp_base"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "zings_project_red_horn:giant_snow_oak_tree_2",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 5,
+    "separation": 2,
+    "salt": 1685636475
+  }
+}

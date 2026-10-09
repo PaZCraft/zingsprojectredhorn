@@ -1,0 +1,9 @@
+{
+  "parent": "zings_project_red_horn:custom/plantation_lamp_block_model",
+  "textures": {
+    "all": "zings_project_red_horn:block/plantation_lamp_bulb",
+    "particle": "zings_project_red_horn:block/plantation_lamp_bulb",
+    "0": "zings_project_red_horn:block/plantation_lamp_pole",
+    "1": "zings_project_red_horn:block/plantation_lamp_bulb"
+  }
+}

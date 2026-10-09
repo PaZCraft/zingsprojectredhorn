@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "zings_project_red_horn:block/poplarax_slab"
+    },
+    "type=top": {
+      "model": "zings_project_red_horn:block/poplarax_slab_top"
+    },
+    "type=double": {
+      "model": "zings_project_red_horn:block/poplarax_slab_full"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "wants": {
+    "id": "zings_project_red_horn:strelitzia",
+    "count": 2
+  },
+  "gives": {
+    "id": "zings_project_red_horn:hironium_horn_fragment"
+  },
+  "max_uses": 10,
+  "xp": 5,
+  "reputation_discount": 0.05
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "zings_project_red_horn:block/chiseled_boarding_quartz",
+    "up": "zings_project_red_horn:block/chiseled_boarding_quartz",
+    "north": "zings_project_red_horn:block/chiseled_boarding_quartz_front",
+    "east": "zings_project_red_horn:block/chiseled_boarding_quartz",
+    "south": "zings_project_red_horn:block/chiseled_boarding_quartz",
+    "west": "zings_project_red_horn:block/chiseled_boarding_quartz",
+    "particle": "zings_project_red_horn:block/chiseled_boarding_quartz"
+  }
+}

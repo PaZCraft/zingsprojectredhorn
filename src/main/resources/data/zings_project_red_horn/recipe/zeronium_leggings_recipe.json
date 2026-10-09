@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "zeronium_leggings",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    "a a",
+    "a a"
+  ],
+  "key": {
+    "a": "zings_project_red_horn:zeronium_ingot"
+  },
+  "result": {
+    "id": "zings_project_red_horn:zeronium_armor_leggings",
+    "count": 1
+  }
+}

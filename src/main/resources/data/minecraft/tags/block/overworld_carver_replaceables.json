@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "zings_project_red_horn:blue_obsidian",
+    "minecraft:grass_block",
+    "minecraft:dirt",
+    "zings_project_red_horn:xenonic_sulfur",
+    "zings_project_red_horn:ferrous_mint_moss"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_fence_gate_open",
+  "textures": {
+    "texture": "zings_project_red_horn:block/ferrorock_willow_planks",
+    "particle": "zings_project_red_horn:block/ferrorock_willow_planks"
+  }
+}

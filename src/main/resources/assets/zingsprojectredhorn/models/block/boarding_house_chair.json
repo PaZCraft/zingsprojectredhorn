@@ -1,0 +1,9 @@
+{
+  "parent": "zings_project_red_horn:custom/boarding_chair_model",
+  "textures": {
+    "all": "zings_project_red_horn:block/boarding_house_chair_base",
+    "particle": "zings_project_red_horn:block/boarding_house_chair_base",
+    "0": "zings_project_red_horn:block/boarding_house_chair_base",
+    "1": "zings_project_red_horn:block/boarding_house_sofa"
+  }
+}

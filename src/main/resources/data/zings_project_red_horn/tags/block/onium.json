@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    "zings_project_red_horn:hironium_slab",
+    "zings_project_red_horn:zeronium_slab",
+    "zings_project_red_horn:hironium_lantern",
+    "zings_project_red_horn:chiseled_hironium",
+    "zings_project_red_horn:zeronium_torch",
+    "zings_project_red_horn:zeronium_ore",
+    "zings_project_red_horn:hironium_stairs",
+    "zings_project_red_horn:zeronium_bricks",
+    "zings_project_red_horn:zeronium_wall",
+    "zings_project_red_horn:hironium_ladder",
+    "zings_project_red_horn:block_of_hironium",
+    "zings_project_red_horn:zero_tinted_glass",
+    "zings_project_red_horn:hironium_bars",
+    "zings_project_red_horn:deepslate_zeronium_ore",
+    "zings_project_red_horn:deepslate_hironium_ore",
+    "zings_project_red_horn:zeronium_ladder",
+    "zings_project_red_horn:hironium_bricks",
+    "zings_project_red_horn:block_of_zeronium",
+    "zings_project_red_horn:zeronium_lantern",
+    "zings_project_red_horn:hironium_tiles",
+    "zings_project_red_horn:hironium_ore",
+    "zings_project_red_horn:hironium_torch",
+    "zings_project_red_horn:hironium_wall",
+    "zings_project_red_horn:zeronium_bars",
+    "zings_project_red_horn:hiro_tinted_glass",
+    "zings_project_red_horn:zeronium_stairs",
+    "zings_project_red_horn:zeronium_tiles",
+    "zings_project_red_horn:chiseled_zeronium"
+  ]
+}

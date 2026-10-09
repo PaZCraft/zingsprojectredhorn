@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "zings_project_red_horn:block/ferrorock_willow_planks",
+    "particle": "zings_project_red_horn:block/ferrorock_willow_planks"
+  }
+}

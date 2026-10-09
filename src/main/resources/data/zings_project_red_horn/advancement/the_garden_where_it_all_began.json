@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "zings_project_red_horn:zeronium_horn_fragment"
+    },
+    "title": {
+      "translate": "advancements.the_garden_where_it_all_began.title"
+    },
+    "description": {
+      "translate": "advancements.the_garden_where_it_all_began.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_garden_where_it_all_began_0": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "zings_project_red_horn:windy_snowy_taiga_plains"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "zings_project_red_horn:partner_shuffle"
+}

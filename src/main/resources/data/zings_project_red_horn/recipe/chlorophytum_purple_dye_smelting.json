@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "group": "chlorophytum_purple_dye",
+  "category": "misc",
+  "experience": 10,
+  "cookingtime": 2000,
+  "ingredient": "zings_project_red_horn:chlorophytum",
+  "result": {
+    "id": "zings_project_red_horn:chlorophytum_purple_dye"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "zings_project_red_horn:honey_raw_porkchop",
+    "minecraft:cooked_porkchop",
+    "minecraft:beef",
+    "minecraft:cooked_mutton",
+    "minecraft:cooked_salmon",
+    "minecraft:cooked_cod",
+    "minecraft:cooked_beef",
+    "minecraft:mutton",
+    "minecraft:honeycomb",
+    "minecraft:honey_bottle",
+    "minecraft:cod",
+    "minecraft:porkchop",
+    "zings_project_red_horn:honey_raw_beef",
+    "zings_project_red_horn:honey_raw_mutton",
+    "minecraft:sweet_berries",
+    "minecraft:salmon"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cherry_sapling"
+    },
+    "title": {
+      "translate": "advancements.when_the_sakura_blooms.title"
+    },
+    "description": {
+      "translate": "advancements.when_the_sakura_blooms.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "when_the_sakura_blooms_0": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "cherry_grove"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "zings_project_red_horn:eden"
+}

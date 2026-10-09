@@ -1,0 +1,9 @@
+{
+  "parent": "zings_project_red_horn:custom/vase_of_white_roses_model",
+  "textures": {
+    "all": "zings_project_red_horn:block/vase_of_roses_vase",
+    "particle": "zings_project_red_horn:block/vase_of_roses_vase",
+    "0": "zings_project_red_horn:block/vase_of_roses_vase",
+    "1": "zings_project_red_horn:block/vase_red_roses"
+  }
+}

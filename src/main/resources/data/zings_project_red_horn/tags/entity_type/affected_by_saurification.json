@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "phantom",
+    "skeleton",
+    "slime",
+    "ghast",
+    "endermite",
+    "blaze",
+    "snow_golem",
+    "bee",
+    "warden",
+    "creeper",
+    "silverfish",
+    "zombie",
+    "zombified_piglin",
+    "enderman",
+    "magma_cube",
+    "shulker",
+    "spider"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "zero_tinted_glass",
+  "category": "building",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": "zings_project_red_horn:zeronium_ingot",
+    "b": "minecraft:tinted_glass"
+  },
+  "result": {
+    "id": "zings_project_red_horn:zero_tinted_glass",
+    "count": 2
+  }
+}

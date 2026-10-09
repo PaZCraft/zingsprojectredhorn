@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "cherry_grove",
+  "spawners": {
+    "type": "zings_project_red_horn:zero_four",
+    "weight": 5,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

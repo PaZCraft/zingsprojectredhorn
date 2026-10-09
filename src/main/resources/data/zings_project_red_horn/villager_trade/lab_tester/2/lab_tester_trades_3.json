@@ -1,0 +1,16 @@
+{
+  "wants": {
+    "id": "minecraft:emerald",
+    "count": 5
+  },
+  "additional_wants": {
+    "id": "minecraft:blaze_powder"
+  },
+  "gives": {
+    "id": "zings_project_red_horn:klaxon_blaze_powder",
+    "count": 6
+  },
+  "max_uses": 10,
+  "xp": 5,
+  "reputation_discount": 0.05
+}

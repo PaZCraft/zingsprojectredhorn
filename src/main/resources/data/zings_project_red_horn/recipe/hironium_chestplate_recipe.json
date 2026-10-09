@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "hironium_chestplate",
+  "category": "equipment",
+  "pattern": [
+    "a a",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": "zings_project_red_horn:hironium_ingot"
+  },
+  "result": {
+    "id": "zings_project_red_horn:hironium_armor_chestplate",
+    "count": 1
+  }
+}

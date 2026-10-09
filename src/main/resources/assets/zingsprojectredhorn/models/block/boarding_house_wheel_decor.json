@@ -1,0 +1,12 @@
+{
+  "parent": "zings_project_red_horn:custom/wooden_wheel_decor_model",
+  "textures": {
+    "all": "zings_project_red_horn:block/wooden_wheel_decor_gear_1",
+    "particle": "zings_project_red_horn:block/wooden_wheel_decor_gear_1",
+    "0": "zings_project_red_horn:block/wooden_wheel_decor_gear_1",
+    "1": "zings_project_red_horn:block/wooden_wheel_decor_gear_2",
+    "2": "zings_project_red_horn:block/wooden_wheel_decor_gear_3",
+    "3": "zings_project_red_horn:block/wooden_wheel_decor_gear_4",
+    "4": "zings_project_red_horn:block/wooden_wheel_decor_base"
+  }
+}

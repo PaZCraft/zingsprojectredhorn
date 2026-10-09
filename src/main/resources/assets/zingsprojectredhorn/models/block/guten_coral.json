@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "zings_project_red_horn:block/guten_coral",
+    "particle": "zings_project_red_horn:block/guten_coral"
+  }
+}

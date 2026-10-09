@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "particle": "zings_project_red_horn:block/boarding_house_couch",
+    "bottom": "zings_project_red_horn:block/boarding_house_couch",
+    "top": "zings_project_red_horn:block/boarding_house_couch",
+    "side": "zings_project_red_horn:block/boarding_house_couch"
+  }
+}

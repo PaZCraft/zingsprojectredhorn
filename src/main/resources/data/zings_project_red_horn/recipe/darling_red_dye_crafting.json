@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "darling_red_dye",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    " b "
+  ],
+  "key": {
+    "a": "zings_project_red_horn:zeronium_horn_fragment",
+    "b": "minecraft:red_dye"
+  },
+  "result": {
+    "id": "zings_project_red_horn:darling_red_dye",
+    "count": 1
+  }
+}

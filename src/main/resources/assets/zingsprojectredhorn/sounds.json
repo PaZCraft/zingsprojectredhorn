@@ -1,0 +1,1253 @@
+{
+  "meekoni.idle": {
+    "subtitle": "subtitles.meekoni.idle",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:meekoni_idle_3",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:meekoni_idle_2",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:meekoni_idle_1",
+        "stream": false
+      }
+    ]
+  },
+  "meekoni.hurt": {
+    "subtitle": "subtitles.meekoni.hurt",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:meekoni_hurt_3",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:meekoni_hurt_2",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:meekoni_hurt_1",
+        "stream": false
+      }
+    ]
+  },
+  "meekoni.death": {
+    "subtitle": "subtitles.meekoni.death",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:meekoni_death",
+        "stream": false
+      }
+    ]
+  },
+  "klaxon_birdzing.hurt": {
+    "subtitle": "subtitles.klaxon_birdzing.hurt",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:klaxon_birdzing_hurt_2",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_birdzing_hurt_1",
+        "stream": false
+      }
+    ]
+  },
+  "klaxon_birdzing.death": {
+    "subtitle": "subtitles.klaxon_birdzing.death",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:klaxon_birdzing_death_2",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_birdzing_death_1",
+        "stream": false
+      }
+    ]
+  },
+  "klaxon_birdzing.idle": {
+    "subtitle": "subtitles.klaxon_birdzing.idle",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:klaxon_birdzing_idle_3",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_birdzing_idle_2",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_birdzing_idle_1",
+        "stream": false
+      }
+    ]
+  },
+  "klaxon_thing.idle": {
+    "subtitle": "subtitles.klaxon_thing.idle",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:klaxon_thing_idle_3",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_thing_idle_2",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_thing_idle_1",
+        "stream": false
+      }
+    ]
+  },
+  "klaxon_thing.hurt": {
+    "subtitle": "subtitles.klaxon_thing.hurt",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:klaxon_thing_hurt_3",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_thing_hurt_2",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_thing_hurt_1",
+        "stream": false
+      }
+    ]
+  },
+  "klaxon_thing.death": {
+    "subtitle": "subtitles.klaxon_thing.death",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:klaxon_thing_death",
+        "stream": false
+      }
+    ]
+  },
+  "droid_spider.death": {
+    "subtitle": "subtitles.droid_spider.death",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:droid_spider_death",
+        "stream": false
+      }
+    ]
+  },
+  "droid_spider.hurt": {
+    "subtitle": "subtitles.droid_spider.hurt",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:droid_spider_hurt_3",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:droid_spider_hurt_2",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:droid_spider_hurt_1",
+        "stream": false
+      }
+    ]
+  },
+  "droid_spider.idle": {
+    "subtitle": "subtitles.droid_spider.idle",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:droid_spider_idle_3",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:droid_spider_idle_2",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:droid_spider_idle_1",
+        "stream": false
+      }
+    ]
+  },
+  "klaxon_mimic.idle": {
+    "subtitle": "subtitles.klaxon_mimic.idle",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:klaxon_mimic_idle",
+        "stream": false
+      }
+    ]
+  },
+  "klaxon_mimic.hurt": {
+    "subtitle": "subtitles.klaxon_mimic.hurt",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:klaxon_mimic_hurt_2",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_mimic_hurt_1",
+        "stream": false
+      }
+    ]
+  },
+  "klaxon_mimic.death": {
+    "subtitle": "subtitles.klaxon_mimic.death",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:klaxon_mimic_death",
+        "stream": false
+      }
+    ]
+  },
+  "klaxon_creeper.idle": {
+    "subtitle": "subtitles.klaxon_creeper.idle",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:klaxon_creeper_idle_1",
+        "stream": false
+      }
+    ]
+  },
+  "klaxon_creeper.death": {
+    "subtitle": "subtitles.klaxon_creeper.death",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:klaxon_creeper_death",
+        "stream": false
+      }
+    ]
+  },
+  "klaxon_creeper.hurt": {
+    "subtitle": "subtitles.klaxon_creeper.hurt",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:klaxon_creeper_hurt_4",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_creeper_hurt_3",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_creeper_hurt_2",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_creeper_hurt_1",
+        "stream": false
+      }
+    ]
+  },
+  "klaxon_skeleton.idle": {
+    "subtitle": "subtitles.klaxon_skeleton.idle",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:klaxon_skeleton_idle_3",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_skeleton_idle_2",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_skeleton_idle_1",
+        "stream": false
+      }
+    ]
+  },
+  "klaxon_skeleton.hurt": {
+    "subtitle": "subtitles.klaxon_skeleton.hurt",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:klaxon_skeleton_hurt_4",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_skeleton_hurt_3",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_skeleton_hurt_2",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_skeleton_hurt_1",
+        "stream": false
+      }
+    ]
+  },
+  "klaxon_skeleton.death": {
+    "subtitle": "subtitles.klaxon_skeleton.death",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:klaxon_skeleton_death",
+        "stream": false
+      }
+    ]
+  },
+  "klaxon_zombie.idle": {
+    "subtitle": "subtitles.klaxon_zombie.idle",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:klaxon_zombie_idle_3",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_zombie_idle_2",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_zombie_idle_1",
+        "stream": false
+      }
+    ]
+  },
+  "klaxon_zombie.hurt": {
+    "subtitle": "subtitles.klaxon_zombie.hurt",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:klaxon_zombie_hurt_2",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_zombie_hurt_1",
+        "stream": false
+      }
+    ]
+  },
+  "klaxon_zombie.death": {
+    "subtitle": "subtitles.klaxon_zombie.death",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:klaxon_zombie_death",
+        "stream": false
+      }
+    ]
+  },
+  "klaxon_spider.idle": {
+    "subtitle": "subtitles.klaxon_spider.idle",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:klaxon_spider_idle_4",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_spider_idle_3",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_spider_idle_2",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_spider_idle_1",
+        "stream": false
+      }
+    ]
+  },
+  "klaxon_spider.hurt": {
+    "subtitle": "subtitles.klaxon_spider.hurt",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:klaxon_spider_idle_4",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_spider_idle_3",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_spider_idle_2",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_spider_idle_1",
+        "stream": false
+      }
+    ]
+  },
+  "klaxon_spider.death": {
+    "subtitle": "subtitles.klaxon_spider.death",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:klaxon_spider_death",
+        "stream": false
+      }
+    ]
+  },
+  "enderklaxon.idle": {
+    "subtitle": "subtitles.enderklaxon.idle",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:enderklaxon_idle_5",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:enderklaxon_idle_4",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:enderklaxon_idle_3",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:enderklaxon_idle_2",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:enderklaxon_idle_1",
+        "stream": false
+      }
+    ]
+  },
+  "enderklaxon.hurt": {
+    "subtitle": "subtitles.enderklaxon.hurt",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:enderklaxon_hurt_4",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:enderklaxon_hurt_3",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:enderklaxon_hurt_2",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:enderklaxon_hurt_1",
+        "stream": false
+      }
+    ]
+  },
+  "enderklaxon.death": {
+    "subtitle": "subtitles.enderklaxon.death",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:enderklaxon_death",
+        "stream": false
+      }
+    ]
+  },
+  "klaxon_vex.idle": {
+    "subtitle": "subtitles.klaxon_vex.idle",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:klaxon_vex_idle_3",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_vex_idle_2",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_vex_idle_1",
+        "stream": false
+      }
+    ]
+  },
+  "klaxon_vex.hurt": {
+    "subtitle": "subtitles.klaxon_vex.hurt",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:klaxon_vex_hurt_2",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_vex_hurt_1",
+        "stream": false
+      }
+    ]
+  },
+  "klaxon_vex.death": {
+    "subtitle": "subtitles.klaxon_vex.death",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:klaxon_vex_death_2",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_vex_death_1",
+        "stream": false
+      }
+    ]
+  },
+  "klaxon_guardian.idle": {
+    "subtitle": "subtitles.klaxon_guardian.idle",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:klaxon_guardian_idle_4",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_guardian_idle_3",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_guardian_idle_2",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_guardian_idle_1",
+        "stream": false
+      }
+    ]
+  },
+  "klaxon_guardian.hurt": {
+    "subtitle": "subtitles.klaxon_guardian.hurt",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:klaxon_guardian_hurt_4",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_guardian_hurt_3",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_guardian_hurt_2",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_guardian_hurt_1",
+        "stream": false
+      }
+    ]
+  },
+  "klaxon_guardian.death": {
+    "subtitle": "subtitles.klaxon_guardian.death",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:klaxon_guardian_death",
+        "stream": false
+      }
+    ]
+  },
+  "klaxon_phantom.idle": {
+    "subtitle": "subtitles.klaxon_phantom.idle",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:klaxon_phantom_idle_5",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_phantom_idle_4",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_phantom_idle_3",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_phantom_idle_2",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_phantom_idle_1",
+        "stream": false
+      }
+    ]
+  },
+  "klaxon_phantom.hurt": {
+    "subtitle": "subtitles.klaxon_phantom.hurt",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:klaxon_phantom_hurt_3",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_phantom_hurt_2",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_phantom_hurt_1",
+        "stream": false
+      }
+    ]
+  },
+  "klaxon_phantom.death": {
+    "subtitle": "subtitles.klaxon_phantom.death",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:klaxon_phantom_death",
+        "stream": false
+      }
+    ]
+  },
+  "klaxonmite.idle": {
+    "subtitle": "subtitles.klaxonmite.idle",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:klaxonmite_idle_4",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxonmite_idle_3",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxonmite_idle_2",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxonmite_idle_1",
+        "stream": false
+      }
+    ]
+  },
+  "klaxonmite.hurt": {
+    "subtitle": "subtitles.klaxonmite.hurt",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:klaxonmite_hurt_3",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxonmite_hurt_2",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxonmite_hurt_1",
+        "stream": false
+      }
+    ]
+  },
+  "klaxonmite.death": {
+    "subtitle": "subtitles.klaxonmite.death",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:klaxonmite_death",
+        "stream": false
+      }
+    ]
+  },
+  "klaxon_shulker.idle": {
+    "subtitle": "subtitles.klaxon_shulker.idle",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:klaxon_shulker_idle_4",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_shulker_idle_3",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_shulker_idle_2",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_shulker_idle_1",
+        "stream": false
+      }
+    ]
+  },
+  "klaxon_shulker.hurt": {
+    "subtitle": "subtitles.klaxon_shulker.hurt",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:klaxon_shulker_hurt_4",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_shulker_hurt_3",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_shulker_hurt_2",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_shulker_hurt_1",
+        "stream": false
+      }
+    ]
+  },
+  "klaxon_shulker.death": {
+    "subtitle": "subtitles.klaxon_shulker.death",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:klaxon_shulker_death",
+        "stream": false
+      }
+    ]
+  },
+  "klaxon_ghast.idle": {
+    "subtitle": "subtitles.klaxon_ghast.idle",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:klaxon_ghast_idle_7",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_ghast_idle_6",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_ghast_idle_5",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_ghast_idle_4",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_ghast_idle_3",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_ghast_idle_2",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_ghast_idle_1",
+        "stream": false
+      }
+    ]
+  },
+  "klaxon_ghast.hurt": {
+    "subtitle": "subtitles.klaxon_ghast.hurt",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:klaxon_ghast_hurt_4",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_ghast_hurt_3",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_ghast_hurt_2",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_ghast_hurt_1",
+        "stream": false
+      }
+    ]
+  },
+  "klaxon_ghast.death": {
+    "subtitle": "subtitles.klaxon_ghast.death",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:klaxon_ghast_death",
+        "stream": false
+      }
+    ]
+  },
+  "klaxon_blaze.idle": {
+    "subtitle": "subtitles.klaxon_blaze.idle",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:klaxon_blaze_idle_4",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_blaze_idle_3",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_blaze_idle_2",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_blaze_idle_1",
+        "stream": false
+      }
+    ]
+  },
+  "klaxon_blaze.hurt": {
+    "subtitle": "subtitles.klaxon_blaze.hurt",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:klaxon_blaze_hurt_4",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_blaze_hurt_3",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_blaze_hurt_2",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_blaze_hurt_1",
+        "stream": false
+      }
+    ]
+  },
+  "klaxon_blaze.death": {
+    "subtitle": "subtitles.klaxon_blaze.death",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:klaxon_blaze_death",
+        "stream": false
+      }
+    ]
+  },
+  "klaxon_creaking.idle": {
+    "subtitle": "subtitles.klaxon_creaking.idle",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:klaxon_creaking_idle_4",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_creaking_idle_3",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_creaking_idle_2",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_creaking_idle_1",
+        "stream": false
+      }
+    ]
+  },
+  "klaxon_creaking.hurt": {
+    "subtitle": "subtitles.klaxon_creaking.hurt",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:klaxon_creaking_hurt_2",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_creaking_hurt_1",
+        "stream": false
+      }
+    ]
+  },
+  "klaxon_creaking.death": {
+    "subtitle": "subtitles.klaxon_creaking.death",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:klaxon_creaking_death",
+        "stream": false
+      }
+    ]
+  },
+  "klaxon_bee.idle": {
+    "subtitle": "subtitles.klaxon_bee.idle",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:klaxon_bee_idle_4",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_bee_idle_3",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_bee_idle_2",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_bee_idle_1",
+        "stream": false
+      }
+    ]
+  },
+  "klaxon_bee.hurt": {
+    "subtitle": "subtitles.klaxon_bee.hurt",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:klaxon_bee_hurt_3",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_bee_hurt_2",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_bee_hurt_1",
+        "stream": false
+      }
+    ]
+  },
+  "klaxon_bee.death": {
+    "subtitle": "subtitles.klaxon_bee.death",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:klaxon_bee_death",
+        "stream": false
+      }
+    ]
+  },
+  "klaxon_squid.idle": {
+    "subtitle": "subtitles.klaxon_squid.idle",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:klaxon_squid_idle_4",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_squid_idle_3",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_squid_idle_2",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_squid_idle_1",
+        "stream": false
+      }
+    ]
+  },
+  "klaxon_squid.hurt": {
+    "subtitle": "subtitles.klaxon_squid.hurt",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:klaxon_squid_hurt_4",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_squid_hurt_3",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_squid_hurt_2",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:klaxon_squid_hurt_1",
+        "stream": false
+      }
+    ]
+  },
+  "klaxon_squid.death": {
+    "subtitle": "subtitles.klaxon_squid.death",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:klaxon_squid_death",
+        "stream": false
+      }
+    ]
+  },
+  "virm_mooshroom.idle": {
+    "subtitle": "subtitles.virm_mooshroom.idle",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:virm_mooshroom_idle_4",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:virm_mooshroom_idle_3",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:virm_mooshroom_idle_2",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:virm_mooshroom_idle_1",
+        "stream": false
+      }
+    ]
+  },
+  "virm_mooshroom.hurt": {
+    "subtitle": "subtitles.virm_mooshroom.hurt",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:virm_mooshroom_hurt_3",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:virm_mooshroom_hurt_2",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:virm_mooshroom_hurt_1",
+        "stream": false
+      }
+    ]
+  },
+  "virm_mooshroom.death": {
+    "subtitle": "subtitles.virm_mooshroom.death",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:virm_mooshroom_death",
+        "stream": false
+      }
+    ]
+  },
+  "virm_wither.idle": {
+    "subtitle": "subtitles.virm_wither.idle",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:virm_wither_idle_4",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:virm_wither_idle_3",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:virm_wither_idle_2",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:virm_wither_idle_1",
+        "stream": false
+      }
+    ]
+  },
+  "virm_wither.hurt": {
+    "subtitle": "subtitles.virm_wither.hurt",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:virm_wither_hurt_2",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:virm_wither_hurt_1",
+        "stream": false
+      }
+    ]
+  },
+  "virm_wither.death": {
+    "subtitle": "subtitles.virm_wither.death",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:virm_wither_death",
+        "stream": false
+      }
+    ]
+  },
+  "virm_frog.idle": {
+    "subtitle": "subtitles.virm_frog.idle",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:virm_frog_idle_2",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:virm_frog_idle_1",
+        "stream": false
+      }
+    ]
+  },
+  "virm_frog.hurt": {
+    "subtitle": "subtitles.virm_frog.hurt",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:virm_frog_hurt_2",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:virm_frog_hurt_1",
+        "stream": false
+      }
+    ]
+  },
+  "virm_frog.death": {
+    "subtitle": "subtitles.virm_frog.death",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:virm_frog_death",
+        "stream": false
+      }
+    ]
+  },
+  "virm_drowned.idle": {
+    "subtitle": "subtitles.virm_drowned.idle",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:virm_drowned_idle_2",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:virm_drowned_idle_1",
+        "stream": false
+      }
+    ]
+  },
+  "virm_drowned.hurt": {
+    "subtitle": "subtitles.virm_drowned.hurt",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:virm_drowned_hurt_2",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:virm_drowned_hurt_1",
+        "stream": false
+      }
+    ]
+  },
+  "virm_drowned.death": {
+    "subtitle": "subtitles.virm_drowned.death",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:virm_drowned_death",
+        "stream": false
+      }
+    ]
+  },
+  "virm_wolf.idle": {
+    "subtitle": "subtitles.virm_wolf.idle",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:virm_wolf_idle_2",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:virm_wolf_idle_1",
+        "stream": false
+      }
+    ]
+  },
+  "virm_wolf.hurt": {
+    "subtitle": "subtitles.virm_wolf.hurt",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:virm_wolf_hurt_2",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:virm_wolf_hurt_1",
+        "stream": false
+      }
+    ]
+  },
+  "virm_wolf.death": {
+    "subtitle": "subtitles.virm_wolf.death",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:virm_wolf_death",
+        "stream": false
+      }
+    ]
+  },
+  "virm_elder_guardian.idle": {
+    "subtitle": "subtitles.virm_elder_guardian.idle",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:virm_elder_guardian_idle_2",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:virm_elder_guardian_idle_1",
+        "stream": false
+      }
+    ]
+  },
+  "virm_elder_guardian.death": {
+    "subtitle": "subtitles.virm_elder_guardian.death",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:virm_elder_guardian_death",
+        "stream": false
+      }
+    ]
+  },
+  "virm_iron_golem.hurt": {
+    "subtitle": "subtitles.virm_iron_golem.hurt",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:virm_iron_golem_hurt_3",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:virm_iron_golem_hurt_2",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:virm_iron_golem_hurt_1",
+        "stream": false
+      }
+    ]
+  },
+  "virm_iron_golem.death": {
+    "subtitle": "subtitles.virm_iron_golem.death",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:virm_iron_golem_death",
+        "stream": false
+      }
+    ]
+  },
+  "virm_rabbit.idle": {
+    "subtitle": "subtitles.virm_rabbit.idle",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:virm_rabbit_idle_2",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:virm_rabbit_idle_1",
+        "stream": false
+      }
+    ]
+  },
+  "virm_rabbit.hurt": {
+    "subtitle": "subtitles.virm_rabbit.hurt",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:virm_rabbit_hurt_2",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:virm_rabbit_hurt_1",
+        "stream": false
+      }
+    ]
+  },
+  "virm_rabbit.death": {
+    "subtitle": "subtitles.virm_rabbit.death",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:virm_rabbit_death",
+        "stream": false
+      }
+    ]
+  },
+  "music_disc.my_darling": {
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:my_darling_music_disc",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.horns": {
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:music_disc_horns",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.wings": {
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:music_disc_wings",
+        "stream": true
+      }
+    ]
+  },
+  "entity.zero_two.idle": {
+    "subtitle": "subtitles.entity.zero_two.idle",
+    "sounds": [
+      {
+        "name": "zings_project_red_horn:zero_two_idle_3",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:zero_two_idle_2",
+        "stream": false
+      },
+      {
+        "name": "zings_project_red_horn:zero_two_idle_1",
+        "stream": false
+      }
+    ]
+  }
+}

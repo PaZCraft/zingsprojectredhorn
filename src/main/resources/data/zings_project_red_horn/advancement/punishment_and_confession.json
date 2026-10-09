@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "zings_project_red_horn:zero_twos_limiter"
+    },
+    "title": {
+      "translate": "advancements.punishment_and_confession.title"
+    },
+    "description": {
+      "translate": "advancements.punishment_and_confession.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "punishment_and_confession_0": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "taken": {
+            "min": 0,
+            "max": 10
+          },
+          "source_entity": {
+            "type": "zings_project_red_horn:zero_two"
+          },
+          "blocked": false
+        }
+      }
+    }
+  },
+  "parent": "zings_project_red_horn:the_beast_and_the_prince"
+}

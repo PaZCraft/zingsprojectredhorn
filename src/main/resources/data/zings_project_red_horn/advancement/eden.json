@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "id": "zings_project_red_horn:white_rose_bush"
+    },
+    "title": {
+      "translate": "advancements.eden.title"
+    },
+    "description": {
+      "translate": "advancements.eden.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "eden_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "zings_project_red_horn:white_rose_bush",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    },
+    "eden_3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:rose_bush",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "zings_project_red_horn:days_of_our_lives"
+}

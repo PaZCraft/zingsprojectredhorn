@@ -1,0 +1,8 @@
+{
+  "parent": "zings_project_red_horn:custom/ladder",
+  "textures": {
+    "all": "zings_project_red_horn:block/zeronium_ladder",
+    "particle": "zings_project_red_horn:block/zeronium_ladder",
+    "texture": "zings_project_red_horn:block/zeronium_ladder"
+  }
+}

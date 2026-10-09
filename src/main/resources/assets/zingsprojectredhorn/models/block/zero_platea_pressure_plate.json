@@ -1,0 +1,7 @@
+{
+  "parent": "block/pressure_plate_up",
+  "textures": {
+    "texture": "zings_project_red_horn:block/zero_platea_planks",
+    "particle": "zings_project_red_horn:block/zero_platea_planks"
+  }
+}

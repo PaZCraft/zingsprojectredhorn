@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "zeronium_bricks",
+  "category": "building",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": "zings_project_red_horn:zeronium_ingot"
+  },
+  "result": {
+    "id": "zings_project_red_horn:zeronium_bricks",
+    "count": 1
+  }
+}

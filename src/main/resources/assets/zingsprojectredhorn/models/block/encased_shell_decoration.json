@@ -1,0 +1,11 @@
+{
+  "parent": "zings_project_red_horn:custom/encased_gallery_block_model",
+  "textures": {
+    "all": "zings_project_red_horn:block/encased_gallery_shell",
+    "particle": "zings_project_red_horn:block/encased_gallery_shell",
+    "0": "zings_project_red_horn:block/encased_gallery_case",
+    "1": "zings_project_red_horn:block/encased_gallery_glass",
+    "2": "zings_project_red_horn:block/encased_gallery_stand",
+    "3": "zings_project_red_horn:block/encased_gallery_shell"
+  }
+}

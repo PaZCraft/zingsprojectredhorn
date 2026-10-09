@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "zeronium_boots",
+  "category": "equipment",
+  "pattern": [
+    "a a",
+    "a a"
+  ],
+  "key": {
+    "a": "zings_project_red_horn:zeronium_ingot"
+  },
+  "result": {
+    "id": "zings_project_red_horn:zeronium_armor_boots",
+    "count": 1
+  }
+}

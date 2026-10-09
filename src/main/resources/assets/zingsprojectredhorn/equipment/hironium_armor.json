@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "zings_project_red_horn:hironium_armor"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "zings_project_red_horn:hironium_armor"
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "hironium_leggings",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    "a a",
+    "a a"
+  ],
+  "key": {
+    "a": "zings_project_red_horn:hironium_ingot"
+  },
+  "result": {
+    "id": "zings_project_red_horn:hironium_armor_leggings",
+    "count": 1
+  }
+}

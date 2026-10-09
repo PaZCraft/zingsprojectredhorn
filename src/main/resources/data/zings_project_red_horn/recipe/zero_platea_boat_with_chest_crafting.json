@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "raft_with_chest",
+  "category": "misc",
+  "pattern": [
+    "ab"
+  ],
+  "key": {
+    "a": "minecraft:chest",
+    "b": "zings_project_red_horn:zero_platea_raft"
+  },
+  "result": {
+    "id": "zings_project_red_horn:zero_platea_raft_with_chest",
+    "count": 1
+  }
+}

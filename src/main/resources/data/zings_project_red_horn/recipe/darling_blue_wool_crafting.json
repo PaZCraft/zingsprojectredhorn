@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "darling_blue_wool",
+  "category": "building",
+  "pattern": [
+    "ab"
+  ],
+  "key": {
+    "a": "#minecraft:wool",
+    "b": "zings_project_red_horn:darling_blue_dye"
+  },
+  "result": {
+    "id": "zings_project_red_horn:darling_blue_wool",
+    "count": 1
+  }
+}

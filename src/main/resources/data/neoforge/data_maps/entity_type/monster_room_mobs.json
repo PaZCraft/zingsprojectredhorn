@@ -1,0 +1,16 @@
+{
+  "values": {
+    "zings_project_red_horn:klaxon_creeper": {
+      "weight": 100
+    },
+    "zings_project_red_horn:klaxon_zombie": {
+      "weight": 100
+    },
+    "zings_project_red_horn:klaxon_spider": {
+      "weight": 100
+    },
+    "zings_project_red_horn:klaxon_skeleton": {
+      "weight": 100
+    }
+  }
+}

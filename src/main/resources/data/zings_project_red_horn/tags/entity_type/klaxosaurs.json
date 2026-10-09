@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "zings_project_red_horn:klaxon_skeleton",
+    "zings_project_red_horn:klaxon_zombie",
+    "zings_project_red_horn:klaxon_birdzing",
+    "zings_project_red_horn:klaxon_creeper",
+    "zings_project_red_horn:klaxon_spider"
+  ]
+}

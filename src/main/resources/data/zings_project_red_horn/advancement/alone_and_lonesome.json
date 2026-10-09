@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "zings_project_red_horn:zeronium_horn_fragment"
+    },
+    "title": {
+      "translate": "advancements.alone_and_lonesome.title"
+    },
+    "description": {
+      "translate": "advancements.alone_and_lonesome.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "alone_and_lonesome_0": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:overworld"
+      }
+    }
+  },
+  "parent": "zings_project_red_horn:the_darling_era"
+}

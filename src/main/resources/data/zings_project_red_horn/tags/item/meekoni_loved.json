@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    "zings_project_red_horn:zeronium_ingot",
+    "zings_project_red_horn:zeronium_slab",
+    "zings_project_red_horn:block_of_zeronium",
+    "zings_project_red_horn:zeronium_armor_boots",
+    "zings_project_red_horn:zeronium_torch",
+    "zings_project_red_horn:zeronium_lantern",
+    "zings_project_red_horn:zeronium_hoe",
+    "zings_project_red_horn:zeronium_armor_leggings",
+    "zings_project_red_horn:zeronium_armor_helmet",
+    "zings_project_red_horn:zeronium_pickaxe",
+    "zings_project_red_horn:zeronium_ore",
+    "zings_project_red_horn:zeronium_sword",
+    "zings_project_red_horn:zeronium_bricks",
+    "zings_project_red_horn:zeronium_wall",
+    "zings_project_red_horn:horn_shears",
+    "zings_project_red_horn:zeronium_bars",
+    "zings_project_red_horn:zero_tinted_glass",
+    "zings_project_red_horn:zeronium_shovel",
+    "zings_project_red_horn:zeronium_horn_fragment",
+    "zings_project_red_horn:zeronium_axe",
+    "zings_project_red_horn:zeronium_armor_chestplate",
+    "zings_project_red_horn:zeronium_stairs",
+    "zings_project_red_horn:zeronium",
+    "zings_project_red_horn:deepslate_zeronium_ore"
+  ]
+}

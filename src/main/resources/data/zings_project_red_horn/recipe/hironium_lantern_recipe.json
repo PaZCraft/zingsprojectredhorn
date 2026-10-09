@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "hironium_lantern",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": "minecraft:iron_nugget",
+    "b": "zings_project_red_horn:hironium_torch"
+  },
+  "result": {
+    "id": "zings_project_red_horn:hironium_lantern",
+    "count": 1
+  }
+}

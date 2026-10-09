@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "minecraft:resin_clump",
+  "base": "zings_project_red_horn:onium",
+  "addition": "zings_project_red_horn:hironium_horn_fragment",
+  "result": {
+    "id": "zings_project_red_horn:hironium"
+  }
+}

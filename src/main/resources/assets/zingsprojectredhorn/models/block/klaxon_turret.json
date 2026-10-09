@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "zings_project_red_horn:block/klaxon_turret_off",
+    "up": "zings_project_red_horn:block/klaxon_turret_off",
+    "north": "zings_project_red_horn:block/klaxon_turret_front",
+    "east": "zings_project_red_horn:block/klaxon_turret_off",
+    "south": "zings_project_red_horn:block/klaxon_turret_off",
+    "west": "zings_project_red_horn:block/klaxon_turret_off",
+    "particle": "zings_project_red_horn:block/klaxon_turret_off"
+  }
+}

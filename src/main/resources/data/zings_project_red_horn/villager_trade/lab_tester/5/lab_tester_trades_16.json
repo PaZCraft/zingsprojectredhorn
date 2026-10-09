@@ -1,0 +1,16 @@
+{
+  "wants": {
+    "id": "minecraft:emerald",
+    "count": 10
+  },
+  "additional_wants": {
+    "id": "minecraft:feather",
+    "count": 15
+  },
+  "gives": {
+    "id": "zings_project_red_horn:disc_wings"
+  },
+  "max_uses": 10,
+  "xp": 5,
+  "reputation_discount": 0.05
+}

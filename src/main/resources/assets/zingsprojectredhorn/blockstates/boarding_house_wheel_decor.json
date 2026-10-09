@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "zings_project_red_horn:block/boarding_house_wheel_decor"
+    },
+    "facing=east": {
+      "model": "zings_project_red_horn:block/boarding_house_wheel_decor",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "zings_project_red_horn:block/boarding_house_wheel_decor",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "zings_project_red_horn:block/boarding_house_wheel_decor",
+      "y": 270
+    }
+  }
+}

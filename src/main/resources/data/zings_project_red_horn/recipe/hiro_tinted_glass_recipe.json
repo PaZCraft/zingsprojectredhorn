@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "hiro_tinted_glass",
+  "category": "building",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": "zings_project_red_horn:hironium_ingot",
+    "b": "minecraft:tinted_glass"
+  },
+  "result": {
+    "id": "zings_project_red_horn:hiro_tinted_glass",
+    "count": 2
+  }
+}

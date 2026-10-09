@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "zings_project_red_horn:chiseled_boarding_glass",
+    "zings_project_red_horn:boarding_glass",
+    "minecraft:terracotta",
+    "zings_project_red_horn:boarding_bricks",
+    "minecraft:pink_terracotta",
+    "minecraft:quartz_bricks",
+    "minecraft:quartz_pillar",
+    "minecraft:quartz_block",
+    "minecraft:smooth_quartz_slab",
+    "minecraft:red_terracotta",
+    "minecraft:smooth_quartz_stairs"
+  ]
+}

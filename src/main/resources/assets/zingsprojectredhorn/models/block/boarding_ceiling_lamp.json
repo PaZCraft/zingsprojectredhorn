@@ -1,0 +1,10 @@
+{
+  "parent": "zings_project_red_horn:custom/boarding_ceiling_lamp_model",
+  "textures": {
+    "all": "zings_project_red_horn:block/boarding_ceiling_lamp_bulb",
+    "particle": "zings_project_red_horn:block/boarding_ceiling_lamp_bulb",
+    "0": "zings_project_red_horn:block/boarding_ceiling_lamp_base",
+    "1": "zings_project_red_horn:block/boarding_ceiling_lamp_bulb",
+    "2": "zings_project_red_horn:block/boarding_ceiling_lamp_switch"
+  }
+}

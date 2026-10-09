@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "group": "hironium_ingot",
+  "category": "misc",
+  "experience": 2,
+  "cookingtime": 195,
+  "ingredient": "zings_project_red_horn:hironium",
+  "result": {
+    "id": "zings_project_red_horn:hironium_ingot"
+  }
+}

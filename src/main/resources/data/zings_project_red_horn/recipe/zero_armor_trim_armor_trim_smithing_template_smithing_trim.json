@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:smithing_trim",
+  "addition": "#minecraft:trim_materials",
+  "base": "#minecraft:trimmable_armor",
+  "pattern": "zings_project_red_horn:zero_armor_trim",
+  "template": "zings_project_red_horn:zero_armor_trim_smithing_table"
+}

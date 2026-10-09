@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "zings_project_red_horn:block/xenon_portal_ew"
+    },
+    "axis=x": {
+      "model": "zings_project_red_horn:block/xenon_portal_ns"
+    }
+  }
+}

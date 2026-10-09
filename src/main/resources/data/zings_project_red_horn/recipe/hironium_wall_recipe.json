@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "hironium_wall",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": "zings_project_red_horn:hironium_bricks"
+  },
+  "result": {
+    "id": "zings_project_red_horn:hironium_wall",
+    "count": 6
+  }
+}

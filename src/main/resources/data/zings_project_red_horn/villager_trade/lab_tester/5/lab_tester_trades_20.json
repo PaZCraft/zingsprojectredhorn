@@ -1,0 +1,15 @@
+{
+  "wants": {
+    "id": "minecraft:emerald",
+    "count": 23
+  },
+  "additional_wants": {
+    "id": "minecraft:netherite_sword"
+  },
+  "gives": {
+    "id": "zings_project_red_horn:hironium_sword"
+  },
+  "max_uses": 10,
+  "xp": 5,
+  "reputation_discount": 0.05
+}

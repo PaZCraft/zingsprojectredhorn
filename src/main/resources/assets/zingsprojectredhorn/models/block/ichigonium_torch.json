@@ -1,0 +1,8 @@
+{
+  "parent": "zings_project_red_horn:custom/vanilla_torch_model",
+  "textures": {
+    "all": "zings_project_red_horn:block/ichigonium_torch",
+    "particle": "zings_project_red_horn:block/ichigonium_torch",
+    "0": "zings_project_red_horn:block/ichigonium_torch"
+  }
+}

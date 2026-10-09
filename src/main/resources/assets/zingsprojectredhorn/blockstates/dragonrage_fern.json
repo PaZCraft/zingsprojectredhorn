@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "zings_project_red_horn:block/dragonrage_fern"
+    },
+    "half=lower": {
+      "model": "zings_project_red_horn:block/dragonrage_fern_bottom"
+    }
+  }
+}

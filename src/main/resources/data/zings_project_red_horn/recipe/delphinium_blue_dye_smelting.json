@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "group": "delphinium_blue_dye",
+  "category": "misc",
+  "experience": 10,
+  "cookingtime": 2000,
+  "ingredient": "zings_project_red_horn:delphinium",
+  "result": {
+    "id": "zings_project_red_horn:delphinium_blue_dye"
+  }
+}

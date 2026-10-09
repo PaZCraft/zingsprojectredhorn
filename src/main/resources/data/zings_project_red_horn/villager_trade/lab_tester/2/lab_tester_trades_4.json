@@ -1,0 +1,16 @@
+{
+  "wants": {
+    "id": "minecraft:emerald",
+    "count": 7
+  },
+  "additional_wants": {
+    "id": "minecraft:fermented_spider_eye"
+  },
+  "gives": {
+    "id": "zings_project_red_horn:fermented_klaxon_spider_eye",
+    "count": 8
+  },
+  "max_uses": 10,
+  "xp": 5,
+  "reputation_discount": 0.05
+}

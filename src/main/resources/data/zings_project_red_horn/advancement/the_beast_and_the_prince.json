@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "zings_project_red_horn:parasite_crossbow_melee"
+    },
+    "title": {
+      "translate": "advancements.the_beast_and_the_prince.title"
+    },
+    "description": {
+      "translate": "advancements.the_beast_and_the_prince.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_beast_and_the_prince_0": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "taken": {
+            "min": 0,
+            "max": 10
+          },
+          "source_entity": {
+            "type": "zings_project_red_horn:masked_pillager"
+          },
+          "blocked": false
+        }
+      }
+    }
+  },
+  "parent": "zings_project_red_horn:the_garden_where_it_all_began"
+}

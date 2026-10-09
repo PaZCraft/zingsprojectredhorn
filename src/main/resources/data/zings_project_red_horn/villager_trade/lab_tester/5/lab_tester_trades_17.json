@@ -1,0 +1,15 @@
+{
+  "wants": {
+    "id": "minecraft:emerald",
+    "count": 13
+  },
+  "additional_wants": {
+    "id": "zings_project_red_horn:zeronium"
+  },
+  "gives": {
+    "id": "zings_project_red_horn:zero_two_spawn_egg"
+  },
+  "max_uses": 10,
+  "xp": 5,
+  "reputation_discount": 0.05
+}
