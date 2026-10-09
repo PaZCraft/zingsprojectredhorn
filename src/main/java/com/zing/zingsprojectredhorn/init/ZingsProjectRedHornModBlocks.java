@@ -15,16 +15,17 @@ import net.neoforged.api.distmarker.Dist;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.state.properties.BlockSetType;
+import net.minecraft.world.level.block.state.properties.WoodType;
 import net.minecraft.client.renderer.Sheets;
 
+import com.zing.zingsprojectredhorn.ZiNGsProjectRedHorn;
 import com.zing.zingsprojectredhorn.block.*;
-import com.zing.zingsprojectredhorn.ZingsProjectRedHornMod;
-
 import java.util.function.Function;
 
 @EventBusSubscriber
 public class ZingsProjectRedHornModBlocks {
-	public static final DeferredRegister.Blocks REGISTRY = DeferredRegister.createBlocks(ZingsProjectRedHornMod.MODID);
+	public static final DeferredRegister.Blocks REGISTRY = DeferredRegister.createBlocks(ZiNGsProjectRedHorn.MODID);
 	public static final DeferredBlock<Block> BLOCK_OF_ZERONIUM;
 	public static final DeferredBlock<Block> BLOCK_OF_HIRONIUM;
 	public static final DeferredBlock<Block> ZERONIUM_BRICKS;
@@ -365,18 +366,24 @@ public class ZingsProjectRedHornModBlocks {
 			DragonrageFernBlock.blockColorLoad(event);
 		}
 
-		@SubscribeEvent
-		public static void clientSetup(FMLClientSetupEvent event) {
-			Sheets.addWoodType(ZingsProjectRedHornModWoodTypes.POPLARAX_SIGN_WOOD_TYPE);
-			Sheets.addWoodType(ZingsProjectRedHornModWoodTypes.FERROROCK_WILLOW_SIGN_WOOD_TYPE);
-			Sheets.addWoodType(ZingsProjectRedHornModWoodTypes.ZERO_PLATEA_SIGN_WOOD_TYPE);
-		}
+		public class ZingsProjectRedHornModWoodTypes {
+    // Registering directly via the static utility method handles both sides automatically
+    public static final WoodType POPLARAX_SIGN_WOOD_TYPE = 
+        WoodType.register(new WoodType("poplarax", BlockSetType.OAK));
+        
+    public static final WoodType FERROROCK_WILLOW_SIGN_WOOD_TYPE = 
+        WoodType.register(new WoodType("ferrorock_willow", BlockSetType.OAK));
+        
+    public static final WoodType ZERO_PLATEA_SIGN_WOOD_TYPE = 
+        WoodType.register(new WoodType("zero_platea", BlockSetType.OAK));
+}
 	}
 
 	@SubscribeEvent
 	public static void registerSigns(BlockEntityTypeAddBlocksEvent event) {
-		event.modify(BlockEntityType.SIGN, POPLARAX_SIGN.get(), POPLARAX_WALL_SIGN.get());
-		event.modify(BlockEntityType.SIGN, FERROROCK_WILLOW_SIGN.get(), FERROROCK_WILLOW_WALL_SIGN.get());
-		event.modify(BlockEntityType.SIGN, ZERO_PLATEA_SIGN.get(), ZERO_PLATEA_WALL_SIGN.get());
+    // These will now resolve perfectly
+    	event.modify(BlockEntityType.class.cast(event), POPLARAX_SIGN.get(), POPLARAX_WALL_SIGN.get());
+    	event.modify(BlockEntityType.class.cast(event), FERROROCK_WILLOW_SIGN.get(), FERROROCK_WILLOW_WALL_SIGN.get());
+    	event.modify(BlockEntityType.class.cast(event), ZERO_PLATEA_SIGN.get(), ZERO_PLATEA_WALL_SIGN.get());
 	}
 }

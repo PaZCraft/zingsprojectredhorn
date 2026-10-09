@@ -12,7 +12,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.projectile.throwableitemprojectile.AbstractThrownPotion;
 import net.minecraft.world.entity.monster.Monster;
 import net.minecraft.world.entity.monster.Endermite;
-import net.minecraft.world.entity.monster.EnderMan;
+import net.minecraft.world.entity.monster.Enderman;
 import net.minecraft.world.entity.animal.wolf.Wolf;
 import net.minecraft.world.entity.animal.Animal;
 import net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal;
@@ -59,7 +59,7 @@ public class KlaxonSkeletonEntity extends Animal {
 		this.goalSelector.addGoal(6, new AvoidEntityGoal<>(this, ZeroTwoEntity.class, (float) 6, 6, 1.2));
 		this.goalSelector.addGoal(7, new AvoidEntityGoal<>(this, MeekoniEntity.class, (float) 6, 1, 1.2));
 		this.goalSelector.addGoal(8, new AvoidEntityGoal<>(this, Wolf.class, (float) 6, 5, 1.2));
-		this.targetSelector.addGoal(9, new NearestAttackableTargetGoal(this, EnderMan.class, false, false));
+		this.targetSelector.addGoal(9, new NearestAttackableTargetGoal(this, Enderman.class, false, false));
 		this.targetSelector.addGoal(10, new NearestAttackableTargetGoal(this, Endermite.class, false, false));
 		this.goalSelector.addGoal(11, new LeapAtTargetGoal(this, (float) 0.5));
 		this.goalSelector.addGoal(12, new LookAtPlayerGoal(this, LivingEntity.class, (float) 6));

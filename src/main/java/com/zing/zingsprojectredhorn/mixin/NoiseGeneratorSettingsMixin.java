@@ -3,7 +3,6 @@ package com.zing.zingsprojectredhorn.mixin;
 import org.spongepowered.asm.mixin.Unique;
 import org.spongepowered.asm.mixin.Mixin;
 
-import net.minecraft.world.level.levelgen.SurfaceRules;
 import net.minecraft.world.level.levelgen.NoiseGeneratorSettings;
 import net.minecraft.world.level.dimension.DimensionType;
 import net.minecraft.core.Holder;

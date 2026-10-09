@@ -13,7 +13,7 @@ import net.minecraft.core.BlockPos;
 
 public class ChlorophytumBlock extends FlowerBlock {
 	public ChlorophytumBlock(BlockBehaviour.Properties properties) {
-		super(MobEffects.REGENERATION, 100, properties.mapColor(MapColor.PLANT).sound(SoundType.GRASS).instabreak().noCollision().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY));
+		super(MobEffects.REGENERATION, 100, properties.mapColor(MapColor.PLANT).sound(SoundType.GRASS).instabreak().noCollision().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.POPPED));
 	}
 
 	@Override

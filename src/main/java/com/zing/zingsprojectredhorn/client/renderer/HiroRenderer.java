@@ -45,7 +45,7 @@ public class HiroRenderer extends HumanoidMobRenderer<HiroEntity, HumanoidRender
 				double y = entity.getY();
 				double z = entity.getZ();
 				if (HiroDisplayConditionProcedure.execute(entity)) {
-					submitNodeCollector.submitModel(this.getParentModel(), state, poseStack, RENDER_TYPE, light, OverlayTexture.NO_OVERLAY, state.outlineColor, null);
+					submitNodeCollector.submitModelPart(this.getParentModel(), state, poseStack, RENDER_TYPE, light, OverlayTexture.NO_OVERLAY, state.outlineColor, null);
 				}
 			}
 		});

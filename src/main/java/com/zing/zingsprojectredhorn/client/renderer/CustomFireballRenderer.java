@@ -16,6 +16,8 @@ import net.minecraft.client.renderer.SubmitNodeCollector;
 
 import com.zing.zingsprojectredhorn.entity.CustomFireballEntity;
 
+import org.joml.Matrix4fc;
+
 import com.mojang.blaze3d.vertex.PoseStack;
 
 @EventBusSubscriber(value = Dist.CLIENT)
@@ -55,7 +57,7 @@ public class CustomFireballRenderer extends EntityRenderer<CustomFireballEntity,
 	public void submit(CustomFireballRenderState state, PoseStack poseStack, SubmitNodeCollector submitNodeCollector, CameraRenderState camera) {
 		if (!state.item.isEmpty()) {
 			poseStack.pushPose();
-			poseStack.mulPose(camera.orientation);
+			poseStack.mulPose((Matrix4fc) camera.orientation);
 			float scale = state.customScale;
 			poseStack.scale(scale, scale, scale);
 			state.item.submit(poseStack, submitNodeCollector, 15728880, 0, 0);

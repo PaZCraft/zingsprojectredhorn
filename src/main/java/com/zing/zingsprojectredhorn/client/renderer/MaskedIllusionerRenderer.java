@@ -2,6 +2,8 @@ package com.zing.zingsprojectredhorn.client.renderer;
 
 import net.minecraft.world.item.ItemDisplayContext;
 import net.minecraft.resources.Identifier;
+import net.minecraft.client.renderer.entity.IllusionerRenderer;
+import net.minecraft.client.renderer.entity.state.IllusionerRenderState;
 import net.minecraft.client.renderer.entity.state.VillagerRenderState;
 import net.minecraft.client.renderer.entity.state.HoldingEntityRenderState;
 import net.minecraft.client.renderer.entity.layers.CrossedArmsItemLayer;
@@ -14,34 +16,30 @@ import com.zing.zingsprojectredhorn.entity.MaskedIllusionerEntity;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 
-public class MaskedIllusionerRenderer extends MobRenderer<MaskedIllusionerEntity, VillagerRenderState, VillagerModel> {
+public class MaskedIllusionerRenderer extends MobRenderer<MaskedIllusionerEntity, IllusionerRenderState> {
 	private final Identifier entityTexture = Identifier.parse("zings_project_red_horn:textures/entities/masked_illusioner_mob.png");
+	private Object itemModelResolver;
 
 	public MaskedIllusionerRenderer(EntityRendererProvider.Context context) {
-		super(context, new VillagerModel(context.bakeLayer(ModelLayers.VILLAGER)), 0.5f);
-		this.addLayer(new CrossedArmsItemLayer<>(this));
+		super();
 	}
 
-	@Override
-	public VillagerRenderState createRenderState() {
-		return new VillagerRenderState();
+	public IllusionerRenderState createRenderState() {
+		return new IllusionerRenderState();
 	}
 
-	@Override
-	public void extractRenderState(MaskedIllusionerEntity entity, VillagerRenderState state, float partialTicks) {
+	public void extractRenderState(MaskedIllusionerEntity entity, IllusionerRenderState state, float partialTicks) {
 		super.extractRenderState(entity, state, partialTicks);
 		if (state instanceof HoldingEntityRenderState holdingState) {
-			this.itemModelResolver.updateForLiving(holdingState.heldItem, entity.getMainHandItem(), ItemDisplayContext.GROUND, entity);
+			((Object) this.itemModelResolver).updateForLiving(holdingState.heldItem, entity.getMainHandItem(), ItemDisplayContext.GROUND, entity);
 		}
 	}
 
-	@Override
-	public Identifier getTextureLocation(VillagerRenderState state) {
+	public Identifier getTextureLocation(IllusionerRenderState state) {
 		return entityTexture;
 	}
 
-	@Override
-	protected void scale(VillagerRenderState state, PoseStack poseStack) {
+	protected void scale(IllusionerRenderState state, PoseStack poseStack) {
 		poseStack.scale(0.9375f, 0.9375f, 0.9375f);
 	}
 }

@@ -23,7 +23,7 @@ public class PoplaraxSaplingBlock extends SaplingBlock {
 			Optional.of(getFeatureKey("zings_project_red_horn:indigo_poplarax_tree")));
 
 	public PoplaraxSaplingBlock(BlockBehaviour.Properties properties) {
-		super(TREE_GROWER, properties.mapColor(MapColor.PLANT).randomTicks().sound(SoundType.GRASS).instabreak().noCollision().pushReaction(PushReaction.DESTROY));
+		super(TREE_GROWER, properties.mapColor(MapColor.PLANT).randomTicks().sound(SoundType.GRASS).instabreak().noCollision().pushReaction(PushReaction.POPPED));
 	}
 
 	@Override

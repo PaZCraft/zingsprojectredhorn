@@ -22,8 +22,7 @@ import net.minecraft.core.component.DataComponents;
 
 import com.zing.zingsprojectredhorn.procedures.ZeroTwosCurseOnEntityHurtProcedure;
 import com.zing.zingsprojectredhorn.init.ZingsProjectRedHornModMobEffects;
-import com.zing.zingsprojectredhorn.ZingsProjectRedHornMod;
-
+import com.zing.zingsprojectredhorn.ZiNGsProjectRedHorn;
 import java.util.List;
 import java.util.ArrayList;
 
@@ -31,8 +30,8 @@ import java.util.ArrayList;
 public class ZeroTwosCurseMobEffect extends MobEffect {
 	public ZeroTwosCurseMobEffect() {
 		super(MobEffectCategory.NEUTRAL, -16750900, mobEffectInstance -> ParticleTypes.DAMAGE_INDICATOR);
-		this.addAttributeModifier(Attributes.ATTACK_DAMAGE, Identifier.fromNamespaceAndPath(ZingsProjectRedHornMod.MODID, "effect.zero_twos_curse_0"), 0.03, AttributeModifier.Operation.ADD_VALUE);
-		this.addAttributeModifier(Attributes.MAX_HEALTH, Identifier.fromNamespaceAndPath(ZingsProjectRedHornMod.MODID, "effect.zero_twos_curse_1"), -0.03, AttributeModifier.Operation.ADD_VALUE);
+		this.addAttributeModifier(Attributes.ATTACK_DAMAGE, Identifier.fromNamespaceAndPath(ZiNGsProjectRedHorn.MODID, "effect.zero_twos_curse_0"), 0.03, AttributeModifier.Operation.ADD_VALUE);
+		this.addAttributeModifier(Attributes.MAX_HEALTH, Identifier.fromNamespaceAndPath(ZiNGsProjectRedHorn.MODID, "effect.zero_twos_curse_1"), -0.03, AttributeModifier.Operation.ADD_VALUE);
 	}
 
 	@Override

@@ -37,7 +37,6 @@ public class KlaxonTransformationOneBrewingRecipe implements IBrewingRecipe {
 		return Ingredient.of(HolderSet.emptyNamed(BuiltInRegistries.ITEM, ItemTags.create(Identifier.parse("zings_project_red_horn:klaxon_transformation_level_one_ingredients")))).test(ingredient);
 	}
 
-	@Override
 	public ItemStack getOutput(ItemStack input, ItemStack ingredient) {
 		if (isInput(input) && isIngredient(ingredient)) {
 			return PotionContents.createItemStack(input.getItem(), ZingsProjectRedHornModPotions.KLAXON_TRANSFORMATION);

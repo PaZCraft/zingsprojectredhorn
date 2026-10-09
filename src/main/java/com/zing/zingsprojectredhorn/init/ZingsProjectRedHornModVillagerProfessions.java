@@ -22,8 +22,6 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.Holder;
 
-import com.zing.zingsprojectredhorn.ZingsProjectRedHornMod;
-
 import java.util.function.Supplier;
 import java.util.function.Predicate;
 import java.util.Optional;
@@ -33,11 +31,12 @@ import java.util.HashMap;
 import it.unimi.dsi.fastutil.ints.Int2ObjectMap;
 
 import com.google.common.collect.ImmutableSet;
+import com.zing.zingsprojectredhorn.ZiNGsProjectRedHorn;
 
 @EventBusSubscriber
 public class ZingsProjectRedHornModVillagerProfessions {
 	private static final Map<String, ProfessionPoiType> POI_TYPES = new HashMap<>();
-	public static final DeferredRegister<VillagerProfession> PROFESSIONS = DeferredRegister.create(Registries.VILLAGER_PROFESSION, ZingsProjectRedHornMod.MODID);
+	public static final DeferredRegister<VillagerProfession> PROFESSIONS = DeferredRegister.create(Registries.VILLAGER_PROFESSION, ZiNGsProjectRedHorn.MODID);
 	public static final DeferredHolder<VillagerProfession, VillagerProfession> LAB_TESTER = registerProfession("lab_tester", () -> ZingsProjectRedHornModBlocks.TESTING_TABLE.get(),
 			() -> BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("entity.villager.work_cartographer")));
 
@@ -45,7 +44,7 @@ public class ZingsProjectRedHornModVillagerProfessions {
 		POI_TYPES.put(name, new ProfessionPoiType(block, null));
 		return PROFESSIONS.register(name, () -> {
 			Predicate<Holder<PoiType>> poiPredicate = poiTypeHolder -> (POI_TYPES.get(name).poiType != null) && (poiTypeHolder.value() == POI_TYPES.get(name).poiType.value());
-			return new VillagerProfession(Component.translatable("entity.villager." + ZingsProjectRedHornMod.MODID + "." + name), poiPredicate, poiPredicate, ImmutableSet.of(), ImmutableSet.of(), soundEvent.get(),
+			return new VillagerProfession(Component.translatable("entity.villager." + ZiNGsProjectRedHorn.MODID + "." + name), poiPredicate, poiPredicate, ImmutableSet.of(), ImmutableSet.of(), soundEvent.get(),
 					Int2ObjectMap.ofEntries(Int2ObjectMap.entry(1, tradeSetResourceKey(name, 1)), Int2ObjectMap.entry(2, tradeSetResourceKey(name, 2)), Int2ObjectMap.entry(3, tradeSetResourceKey(name, 3)),
 							Int2ObjectMap.entry(4, tradeSetResourceKey(name, 4)), Int2ObjectMap.entry(5, tradeSetResourceKey(name, 5))));
 		});
@@ -63,7 +62,7 @@ public class ZingsProjectRedHornModVillagerProfessions {
 				String name = entry.getKey();
 				Optional<Holder<PoiType>> existingCheck = PoiTypes.forState(block.defaultBlockState());
 				if (existingCheck.isPresent()) {
-					ZingsProjectRedHornMod.LOGGER.error("Skipping villager profession " + name + " that uses POI block " + block + " that is already in use by " + existingCheck);
+					ZiNGsProjectRedHorn.LOGGER.error("Skipping villager profession " + name + " that uses POI block " + block + " that is already in use by " + existingCheck);
 					continue;
 				}
 				PoiType poiType = new PoiType(ImmutableSet.copyOf(block.getStateDefinition().getPossibleStates()), 1, 1);

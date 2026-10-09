@@ -17,9 +17,8 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.component.DataComponents;
 
+import com.zing.zingsprojectredhorn.ZiNGsProjectRedHorn;
 import com.zing.zingsprojectredhorn.init.ZingsProjectRedHornModMobEffects;
-import com.zing.zingsprojectredhorn.ZingsProjectRedHornMod;
-
 import java.util.List;
 import java.util.ArrayList;
 
@@ -28,8 +27,8 @@ public class KlaxonBurningMobEffect extends MobEffect {
 	public KlaxonBurningMobEffect() {
 		super(MobEffectCategory.HARMFUL, -16777165);
 		this.withSoundOnAdded(BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("block.fire.extinguish")));
-		this.addAttributeModifier(Attributes.ARMOR, Identifier.fromNamespaceAndPath(ZingsProjectRedHornMod.MODID, "effect.klaxon_burning_0"), -0.05, AttributeModifier.Operation.ADD_VALUE);
-		this.addAttributeModifier(Attributes.ARMOR_TOUGHNESS, Identifier.fromNamespaceAndPath(ZingsProjectRedHornMod.MODID, "effect.klaxon_burning_1"), -0.05, AttributeModifier.Operation.ADD_VALUE);
+		this.addAttributeModifier(Attributes.ARMOR, Identifier.fromNamespaceAndPath(ZiNGsProjectRedHorn.MODID, "effect.klaxon_burning_0"), -0.05, AttributeModifier.Operation.ADD_VALUE);
+		this.addAttributeModifier(Attributes.ARMOR_TOUGHNESS, Identifier.fromNamespaceAndPath(ZiNGsProjectRedHorn.MODID, "effect.klaxon_burning_1"), -0.05, AttributeModifier.Operation.ADD_VALUE);
 	}
 
 	@SubscribeEvent

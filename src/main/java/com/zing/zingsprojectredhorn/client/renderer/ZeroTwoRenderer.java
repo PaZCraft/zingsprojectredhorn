@@ -45,7 +45,7 @@ public class ZeroTwoRenderer extends HumanoidMobRenderer<ZeroTwoEntity, Humanoid
 				double y = entity.getY();
 				double z = entity.getZ();
 				if (ZeroTwoDisplayConditionProcedure.execute(entity)) {
-					submitNodeCollector.submitModel(this.getParentModel(), state, poseStack, RENDER_TYPE, light, OverlayTexture.NO_OVERLAY, state.outlineColor, null);
+					submitNodeCollector.submitModelPart(this.getParentModel(), state, poseStack, RENDER_TYPE, light, OverlayTexture.NO_OVERLAY, state.outlineColor, null);
 				}
 			}
 		});

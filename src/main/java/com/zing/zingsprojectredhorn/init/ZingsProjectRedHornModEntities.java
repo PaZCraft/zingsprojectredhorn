@@ -15,11 +15,11 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.Registries;
 
 import com.zing.zingsprojectredhorn.entity.*;
-import com.zing.zingsprojectredhorn.ZingsProjectRedHornMod;
+import com.zing.zingsprojectredhorn.ZiNGsProjectRedHorn;
 
 @EventBusSubscriber
 public class ZingsProjectRedHornModEntities {
-	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(Registries.ENTITY_TYPE, ZingsProjectRedHornMod.MODID);
+	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(Registries.ENTITY_TYPE, ZiNGsProjectRedHorn.MODID);
 	public static final DeferredHolder<EntityType<?>, EntityType<ZeroTwoEntity>> ZERO_TWO = register("zero_two",
 			EntityType.Builder.<ZeroTwoEntity>of(ZeroTwoEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).fireImmune().ridingOffset(-0.6f)
 
@@ -160,7 +160,7 @@ public class ZingsProjectRedHornModEntities {
 	// Start of user code block custom entities
 	// End of user code block custom entities
 	private static <T extends Entity> DeferredHolder<EntityType<?>, EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
-		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(ResourceKey.create(Registries.ENTITY_TYPE, Identifier.fromNamespaceAndPath(ZingsProjectRedHornMod.MODID, registryname))));
+		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(ResourceKey.create(Registries.ENTITY_TYPE, Identifier.fromNamespaceAndPath(ZiNGsProjectRedHorn.MODID, registryname))));
 	}
 
 	@SubscribeEvent

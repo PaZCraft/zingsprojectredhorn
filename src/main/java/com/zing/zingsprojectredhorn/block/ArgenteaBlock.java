@@ -13,7 +13,7 @@ import net.minecraft.core.BlockPos;
 
 public class ArgenteaBlock extends FlowerBlock {
 	public ArgenteaBlock(BlockBehaviour.Properties properties) {
-		super(MobEffects.JUMP_BOOST, 100, properties.mapColor(MapColor.PLANT).sound(SoundType.GRASS).instabreak().noCollision().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY));
+		super(MobEffects.JUMP_BOOST, 100, properties.mapColor(MapColor.PLANT).sound(SoundType.GRASS).instabreak().noCollision().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.POPPED));
 	}
 
 	@Override

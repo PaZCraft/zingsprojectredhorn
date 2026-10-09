@@ -11,7 +11,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.npc.villager.Villager;
 import net.minecraft.world.entity.monster.Monster;
-import net.minecraft.world.entity.monster.EnderMan;
+import net.minecraft.world.entity.monster.Enderman;
 import net.minecraft.world.entity.animal.golem.IronGolem;
 import net.minecraft.world.entity.animal.feline.Ocelot;
 import net.minecraft.world.entity.animal.feline.Cat;
@@ -59,7 +59,7 @@ public class KlaxonCreeperEntity extends Animal {
 		this.goalSelector.addGoal(4, new RandomLookAroundGoal(this));
 		this.goalSelector.addGoal(5, new FloatGoal(this));
 		this.targetSelector.addGoal(6, new NearestAttackableTargetGoal(this, Player.class, false, false));
-		this.targetSelector.addGoal(7, new NearestAttackableTargetGoal(this, EnderMan.class, false, false));
+		this.targetSelector.addGoal(7, new NearestAttackableTargetGoal(this, Enderman.class, false, false));
 		this.targetSelector.addGoal(8, new NearestAttackableTargetGoal(this, Villager.class, false, false));
 		this.targetSelector.addGoal(9, new NearestAttackableTargetGoal(this, IronGolem.class, false, false));
 		this.goalSelector.addGoal(10, new AvoidEntityGoal<>(this, Cat.class, (float) 6, 1, 1.2));

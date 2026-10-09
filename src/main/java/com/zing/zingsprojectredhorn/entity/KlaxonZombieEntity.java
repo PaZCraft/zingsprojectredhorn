@@ -12,7 +12,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.projectile.throwableitemprojectile.AbstractThrownPotion;
 import net.minecraft.world.entity.monster.Monster;
 import net.minecraft.world.entity.monster.Endermite;
-import net.minecraft.world.entity.monster.EnderMan;
+import net.minecraft.world.entity.monster.Enderman;
 import net.minecraft.world.entity.animal.Animal;
 import net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal;
 import net.minecraft.world.entity.ai.goal.target.HurtByTargetGoal;
@@ -55,7 +55,7 @@ public class KlaxonZombieEntity extends Animal {
 		this.targetSelector.addGoal(3, new HurtByTargetGoal(this).setAlertOthers());
 		this.goalSelector.addGoal(4, new RandomLookAroundGoal(this));
 		this.goalSelector.addGoal(5, new FloatGoal(this));
-		this.targetSelector.addGoal(6, new NearestAttackableTargetGoal(this, EnderMan.class, false, false));
+		this.targetSelector.addGoal(6, new NearestAttackableTargetGoal(this, Enderman.class, false, false));
 		this.targetSelector.addGoal(7, new NearestAttackableTargetGoal(this, Endermite.class, false, false));
 		this.goalSelector.addGoal(8, new LeapAtTargetGoal(this, (float) 0.5));
 		this.goalSelector.addGoal(9, new AvoidEntityGoal<>(this, ZeroTwoEntity.class, (float) 6, 3, 1.2));

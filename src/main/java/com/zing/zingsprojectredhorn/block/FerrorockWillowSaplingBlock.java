@@ -23,7 +23,7 @@ public class FerrorockWillowSaplingBlock extends SaplingBlock {
 			Optional.of(getFeatureKey("zings_project_red_horn:ferrorock_willow_tree")));
 
 	public FerrorockWillowSaplingBlock(BlockBehaviour.Properties properties) {
-		super(TREE_GROWER, properties.mapColor(MapColor.PLANT).randomTicks().sound(SoundType.GRASS).instabreak().noCollision().pushReaction(PushReaction.DESTROY));
+		super(TREE_GROWER, properties.mapColor(MapColor.PLANT).randomTicks().sound(SoundType.GRASS).instabreak().noCollision().pushReaction(PushReaction.POPPED));
 	}
 
 	@Override

@@ -12,6 +12,9 @@ import com.zing.zingsprojectredhorn.entity.KlaxonGooEntity;
 import com.zing.zingsprojectredhorn.client.model.Modelklaxon_goop_entity_model;
 
 import com.mojang.math.Axis;
+
+import org.joml.Matrix4fc;
+
 import com.mojang.blaze3d.vertex.PoseStack;
 
 public class KlaxonGooRenderer extends EntityRenderer<KlaxonGooEntity, LivingEntityRenderState> {
@@ -26,10 +29,10 @@ public class KlaxonGooRenderer extends EntityRenderer<KlaxonGooEntity, LivingEnt
 	@Override
 	public void submit(LivingEntityRenderState state, PoseStack poseStack, SubmitNodeCollector submitNodeCollector, CameraRenderState camera) {
 		poseStack.pushPose();
-		poseStack.mulPose(Axis.YP.rotationDegrees(state.yRot - 90));
-		poseStack.mulPose(Axis.ZP.rotationDegrees(90 + state.xRot));
+		poseStack.mulPose((Matrix4fc) Axis.YP.rotationDegrees(state.yRot - 90));
+		poseStack.mulPose((Matrix4fc) Axis.ZP.rotationDegrees(90 + state.xRot));
 		model.setupAnim(state);
-		submitNodeCollector.submitModel(this.model, state, poseStack, texture, state.lightCoords, OverlayTexture.NO_OVERLAY, state.outlineColor, null);
+		submitNodeCollector.submitModelPart(this.model, state, poseStack, texture, state.lightCoords, OverlayTexture.NO_OVERLAY, state.outlineColor, null);
 		poseStack.popPose();
 		super.submit(state, poseStack, submitNodeCollector, camera);
 	}

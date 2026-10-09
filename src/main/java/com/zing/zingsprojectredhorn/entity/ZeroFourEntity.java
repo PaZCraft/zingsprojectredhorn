@@ -16,8 +16,6 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.entity.projectile.throwableitemprojectile.AbstractThrownPotion;
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.monster.Slime;
-import net.minecraft.world.entity.monster.MagmaCube;
 import net.minecraft.world.entity.ai.goal.target.OwnerHurtTargetGoal;
 import net.minecraft.world.entity.ai.goal.target.OwnerHurtByTargetGoal;
 import net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal;
@@ -69,8 +67,8 @@ public class ZeroFourEntity extends TamableAnimal {
 		this.goalSelector.addGoal(9, new FollowOwnerGoal(this, 1, (float) 10, (float) 2));
 		this.goalSelector.addGoal(10, new OwnerHurtByTargetGoal(this));
 		this.targetSelector.addGoal(11, new OwnerHurtTargetGoal(this));
-		this.targetSelector.addGoal(12, new NearestAttackableTargetGoal(this, Slime.class, false, false));
-		this.targetSelector.addGoal(13, new NearestAttackableTargetGoal(this, MagmaCube.class, false, false));
+		this.targetSelector.addGoal(12, new NearestAttackableTargetGoal(this, net.minecraft.world.entity.monster.cubemob.Slime.class, false, false));
+		this.targetSelector.addGoal(13, new NearestAttackableTargetGoal(this, net.minecraft.world.entity.monster.cubemob.MagmaCube.class, false, false));
 	}
 
 	@Override

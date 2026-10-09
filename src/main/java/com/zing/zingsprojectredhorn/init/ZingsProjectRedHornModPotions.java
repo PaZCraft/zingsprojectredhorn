@@ -8,12 +8,13 @@ import net.neoforged.neoforge.registries.DeferredHolder;
 
 import net.minecraft.world.item.alchemy.Potion;
 import net.minecraft.world.effect.MobEffectInstance;
+
+import com.zing.zingsprojectredhorn.ZiNGsProjectRedHorn;
+
 import net.minecraft.core.registries.Registries;
 
-import com.zing.zingsprojectredhorn.ZingsProjectRedHornMod;
-
 public class ZingsProjectRedHornModPotions {
-	public static final DeferredRegister<Potion> REGISTRY = DeferredRegister.create(Registries.POTION, ZingsProjectRedHornMod.MODID);
+	public static final DeferredRegister<Potion> REGISTRY = DeferredRegister.create(Registries.POTION, ZiNGsProjectRedHorn.MODID);
 	public static final DeferredHolder<Potion, Potion> KLAXON_TRANSFORMATION = REGISTRY.register("klaxon_transformation",
 			() -> new Potion("klaxon_transformation", new MobEffectInstance(ZingsProjectRedHornModMobEffects.SAURIFICATION, 36000, 1, false, true)));
 	public static final DeferredHolder<Potion, Potion> KLAXON_TRANSFORMATION_II = REGISTRY.register("klaxon_transformation_ii",

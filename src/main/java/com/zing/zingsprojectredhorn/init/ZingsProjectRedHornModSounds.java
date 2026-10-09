@@ -8,12 +8,14 @@ import net.neoforged.neoforge.registries.DeferredHolder;
 
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.Identifier;
+
+import com.zing.zingsprojectredhorn.ZiNGsProjectRedHorn;
+
 import net.minecraft.core.registries.Registries;
 
-import com.zing.zingsprojectredhorn.ZingsProjectRedHornMod;
 
 public class ZingsProjectRedHornModSounds {
-	public static final DeferredRegister<SoundEvent> REGISTRY = DeferredRegister.create(Registries.SOUND_EVENT, ZingsProjectRedHornMod.MODID);
+	public static final DeferredRegister<SoundEvent> REGISTRY = DeferredRegister.create(Registries.SOUND_EVENT, ZiNGsProjectRedHorn.MODID);
 	public static final DeferredHolder<SoundEvent, SoundEvent> MEEKONI_IDLE = REGISTRY.register("meekoni.idle", () -> SoundEvent.createVariableRangeEvent(Identifier.fromNamespaceAndPath("zings_project_red_horn", "meekoni.idle")));
 	public static final DeferredHolder<SoundEvent, SoundEvent> MEEKONI_HURT = REGISTRY.register("meekoni.hurt", () -> SoundEvent.createVariableRangeEvent(Identifier.fromNamespaceAndPath("zings_project_red_horn", "meekoni.hurt")));
 	public static final DeferredHolder<SoundEvent, SoundEvent> MEEKONI_DEATH = REGISTRY.register("meekoni.death", () -> SoundEvent.createVariableRangeEvent(Identifier.fromNamespaceAndPath("zings_project_red_horn", "meekoni.death")));

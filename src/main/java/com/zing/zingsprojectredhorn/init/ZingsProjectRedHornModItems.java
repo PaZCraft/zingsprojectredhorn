@@ -8,13 +8,12 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.*;
 
 import com.zing.zingsprojectredhorn.item.*;
+import com.zing.zingsprojectredhorn.ZiNGsProjectRedHorn;
 import com.zing.zingsprojectredhorn.block.PlantationBulbOnBlock;
-import com.zing.zingsprojectredhorn.ZingsProjectRedHornMod;
-
 import java.util.function.Function;
 
 public class ZingsProjectRedHornModItems {
-	public static final DeferredRegister.Items REGISTRY = DeferredRegister.createItems(ZingsProjectRedHornMod.MODID);
+	public static final DeferredRegister.Items REGISTRY = DeferredRegister.createItems(ZiNGsProjectRedHorn.MODID);
 	public static final DeferredItem<Item> ZERO_TWO_SPAWN_EGG;
 	public static final DeferredItem<Item> KLAXON_ZAP;
 	public static final DeferredItem<Item> ZERONIUM;
@@ -291,8 +290,8 @@ public class ZingsProjectRedHornModItems {
 		HIRONIUM_ARMOR_BOOTS = register("hironium_armor_boots", HironiumArmorItem.Boots::new);
 		ZERONIUM_SWORD = register("zeronium_sword", ZeroniumSwordItem::new);
 		HIRONIUM_SWORD = register("hironium_sword", HironiumSwordItem::new);
-		ZERONIUM_AXE = register("zeronium_axe", ZeroniumAxeItem::new);
-		ZERONIUM_HOE = register("zeronium_hoe", ZeroniumHoeItem::new);
+		ZERONIUM_AXE = register("zeronium_axe", (properties) -> new ZeroniumAxeItem(ZingsProjectRedHornModToolMaterials.ZERONIUM));
+		ZERONIUM_HOE = register("zeronium_hoe", (properties) -> new ZeroniumHoeItem(ZingsProjectRedHornModToolMaterials.ZERONIUM));
 		ZERONIUM_SHOVEL = register("zeronium_shovel", ZeroniumShovelItem::new);
 		ZERONIUM_PICKAXE = register("zeronium_pickaxe", ZeroniumPickaxeItem::new);
 		HIRONIUM_AXE = register("hironium_axe", HironiumAxeItem::new);
@@ -540,6 +539,11 @@ public class ZingsProjectRedHornModItems {
 	// End of user code block custom items
 	private static <I extends Item> DeferredItem<I> register(String name, Function<Item.Properties, ? extends I> supplier) {
 		return REGISTRY.registerItem(name, supplier, Item.Properties::new);
+	}
+
+	private static DeferredItem<Item> register(String name, Object supplier) {
+		// TODO Auto-generated method stub
+		throw new UnsupportedOperationException("Unimplemented method 'register'");
 	}
 
 	private static DeferredItem<Item> block(DeferredHolder<Block, Block> block) {

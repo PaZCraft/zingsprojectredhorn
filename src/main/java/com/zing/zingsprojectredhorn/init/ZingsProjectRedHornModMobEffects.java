@@ -12,10 +12,10 @@ import net.minecraft.core.registries.Registries;
 import com.zing.zingsprojectredhorn.potion.ZeroTwosCurseMobEffect;
 import com.zing.zingsprojectredhorn.potion.SaurificationMobEffect;
 import com.zing.zingsprojectredhorn.potion.KlaxonBurningMobEffect;
-import com.zing.zingsprojectredhorn.ZingsProjectRedHornMod;
+import com.zing.zingsprojectredhorn.ZiNGsProjectRedHorn;
 
 public class ZingsProjectRedHornModMobEffects {
-	public static final DeferredRegister<MobEffect> REGISTRY = DeferredRegister.create(Registries.MOB_EFFECT, ZingsProjectRedHornMod.MODID);
+	public static final DeferredRegister<MobEffect> REGISTRY = DeferredRegister.create(Registries.MOB_EFFECT, ZiNGsProjectRedHorn.MODID);
 	public static final DeferredHolder<MobEffect, MobEffect> ZERO_TWOS_CURSE = REGISTRY.register("zero_twos_curse", ZeroTwosCurseMobEffect::new);
 	public static final DeferredHolder<MobEffect, MobEffect> KLAXON_BURNING = REGISTRY.register("klaxon_burning", KlaxonBurningMobEffect::new);
 	public static final DeferredHolder<MobEffect, MobEffect> SAURIFICATION = REGISTRY.register("saurification", SaurificationMobEffect::new);

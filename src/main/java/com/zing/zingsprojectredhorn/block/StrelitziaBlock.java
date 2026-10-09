@@ -13,7 +13,7 @@ import net.minecraft.core.BlockPos;
 
 public class StrelitziaBlock extends FlowerBlock {
 	public StrelitziaBlock(BlockBehaviour.Properties properties) {
-		super(MobEffects.STRENGTH, 100, properties.mapColor(MapColor.PLANT).sound(SoundType.GRASS).instabreak().noCollision().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY));
+		super(MobEffects.STRENGTH, 100, properties.mapColor(MapColor.PLANT).sound(SoundType.GRASS).instabreak().noCollision().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.POPPED));
 	}
 
 	@Override

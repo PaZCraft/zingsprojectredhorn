@@ -6,6 +6,6 @@ import net.minecraft.client.Minecraft;
 public class ClientHelper {
 	public static void openInventory() {
 		Minecraft mc = Minecraft.getInstance();
-		mc.setScreen(new InventoryScreen(mc.player));
+		mc.setScreenAndShow(new InventoryScreen(mc.player));
 	}
 }

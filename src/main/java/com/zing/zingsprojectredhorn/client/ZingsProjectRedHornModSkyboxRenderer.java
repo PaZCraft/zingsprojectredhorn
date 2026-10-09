@@ -1,8 +1,10 @@
 package com.zing.zingsprojectredhorn.client;
 
 import org.joml.Vector4f;
+import org.jspecify.annotations.Nullable;
 import org.joml.Vector3f;
 import org.joml.Matrix4fStack;
+import org.joml.Matrix4fc;
 import org.joml.Matrix4f;
 
 import net.neoforged.neoforge.client.event.RenderLevelStageEvent;
@@ -22,12 +24,14 @@ import java.util.OptionalInt;
 import java.util.OptionalDouble;
 
 import com.mojang.math.Axis;
+import com.mojang.renderpearl.api.buffers.GpuBuffer;
+import com.mojang.renderpearl.api.buffers.GpuBufferSlice;
+import com.mojang.renderpearl.api.commands.RenderPass;
+import com.mojang.renderpearl.api.pipeline.CompiledRenderPipeline;
+import com.mojang.renderpearl.api.textures.GpuTextureView;
+import com.mojang.renderpearl.api.vertex.VertexFormat;
 import com.mojang.blaze3d.vertex.*;
-import com.mojang.blaze3d.textures.GpuTextureView;
 import com.mojang.blaze3d.systems.RenderSystem;
-import com.mojang.blaze3d.systems.RenderPass;
-import com.mojang.blaze3d.buffers.GpuBufferSlice;
-import com.mojang.blaze3d.buffers.GpuBuffer;
 
 @EventBusSubscriber(Dist.CLIENT)
 public class ZingsProjectRedHornModSkyboxRenderer {
@@ -66,26 +70,26 @@ public class ZingsProjectRedHornModSkyboxRenderer {
 		PoseStack poseStack = event.getPoseStack();
 		SkyRenderState state = event.getLevelRenderState().skyRenderState;
 		poseStack.pushPose();
-		poseStack.mulPose(Axis.YP.rotationDegrees(-90.0F));
-		poseStack.mulPose(Axis.XP.rotation(state.sunAngle));
+		poseStack.mulPose((Matrix4fc) Axis.YP.rotationDegrees(-90.0F));
+		poseStack.mulPose((Matrix4fc) Axis.XP.rotation(state.sunAngle));
 		Matrix4fStack modelViewStack = RenderSystem.getModelViewStack();
 		modelViewStack.pushMatrix();
 		modelViewStack.mul(poseStack.last().pose());
 		modelViewStack.translate(0.0F, 100.0F, 0.0F);
 		modelViewStack.scale(30.0F, 1.0F, 30.0F);
 		GpuBufferSlice dynamicTransforms = RenderSystem.getDynamicUniforms().writeTransform(modelViewStack, new Vector4f(1.0F, 1.0F, 1.0F, state.rainBrightness), new Vector3f(), new Matrix4f());
-		GpuTextureView color = mc.getMainRenderTarget().getColorTextureView();
-		GpuTextureView depth = mc.getMainRenderTarget().getDepthTextureView();
+		GpuTextureView color = ((Object) mc)Object) mc).getMainRenderTarget().getColorTextureView();
+		GpuTextureView depth = ((Object) mc).getMainRenderTarget().getDepthTextureView();
 		GpuBuffer indexBuffer = RenderSystem.getSequentialBuffer(VertexFormat.Mode.QUADS).getBuffer(6);
 		AbstractTexture texture = mc.getTextureManager().getTexture(textureId);
 		try (RenderPass renderPass = RenderSystem.getDevice().createCommandEncoder().createRenderPass(() -> "zings_project_red_horn Sun", color, OptionalInt.empty(), depth, OptionalDouble.empty())) {
-			renderPass.setPipeline(RenderPipelines.CELESTIAL);
+			renderPass.setPipeline((CompiledRenderPipeline) RenderPipelines.CELESTIAL);
 			RenderSystem.bindDefaultUniforms(renderPass);
 			renderPass.setUniform("DynamicTransforms", dynamicTransforms);
-			renderPass.bindTexture("Sampler0", texture.getTextureView(), texture.getSampler());
+			((Object) renderPass).bindTexture("Sampler0", texture.getTextureView(), texture.getSampler());
 			renderPass.setVertexBuffer(0, sunBuffer);
 			renderPass.setIndexBuffer(indexBuffer, RenderSystem.getSequentialBuffer(VertexFormat.Mode.QUADS).type());
-			renderPass.drawIndexed(0, 0, 6, 1);
+			renderPass.drawIndexed(0, 0, 6, 1, 0);
 		}
 		modelViewStack.popMatrix();
 		poseStack.popPose();
@@ -106,7 +110,7 @@ public class ZingsProjectRedHornModSkyboxRenderer {
 		modelViewStack.scale(20.0F, 1.0F, 20.0F);
 		GpuBufferSlice dynamicTransforms = RenderSystem.getDynamicUniforms().writeTransform(modelViewStack, new Vector4f(1.0F, 1.0F, 1.0F, state.rainBrightness), new Vector3f(), new Matrix4f());
 		GpuTextureView color = mc.getMainRenderTarget().getColorTextureView();
-		GpuTextureView depth = mc.getMainRenderTarget().getDepthTextureView();
+		GpuTextureView depth = ((Object) mc).getMainRenderTarget().getDepthTextureView();
 		GpuBuffer indexBuffer = RenderSystem.getSequentialBuffer(VertexFormat.Mode.QUADS).getBuffer(6);
 		AbstractTexture texture = mc.getTextureManager().getTexture(textureId);
 		int baseVertex = state.moonPhase.index() * 4;

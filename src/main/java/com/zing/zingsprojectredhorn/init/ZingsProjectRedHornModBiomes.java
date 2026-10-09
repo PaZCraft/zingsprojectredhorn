@@ -10,7 +10,6 @@ import net.neoforged.bus.api.SubscribeEvent;
 
 import net.minecraft.world.level.levelgen.placement.CaveSurface;
 import net.minecraft.world.level.levelgen.VerticalAnchor;
-import net.minecraft.world.level.levelgen.SurfaceRules;
 import net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator;
 import net.minecraft.world.level.dimension.LevelStem;
 import net.minecraft.world.level.dimension.DimensionType;
@@ -18,6 +17,7 @@ import net.minecraft.world.level.dimension.BuiltinDimensionTypes;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.biome.Climate;
+import net.minecraft.world.level.biome.Climate.ParameterList;
 import net.minecraft.world.level.biome.Biome;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.Identifier;
@@ -30,6 +30,8 @@ import java.util.List;
 import java.util.ArrayList;
 
 import com.mojang.datafixers.util.Pair;
+import com.zing.zingsprojectredhorn.mixin.SurfaceRules;
+import com.zing.zingsprojectredhorn.mixin.SurfaceRules.RuleSource;
 
 @EventBusSubscriber
 public class ZingsProjectRedHornModBiomes {
@@ -61,12 +63,13 @@ public class ZingsProjectRedHornModBiomes {
 		return currentRuleSource;
 	}
 
-	public static <T> Climate.ParameterList<T> adaptPresetParameterList(Identifier idArg, Climate.ParameterList<T> originalList, Function<ResourceKey<Biome>, T> lookup) {
+	public static <T> Climate.ParameterList<T> adaptPresetParameterList(Identifier idArg, ParameterList<?> originalList, Function<ResourceKey<Biome>,?> args) {
 		if (!BOOTSTRAP_VALIDATION_PASSED)
-			return originalList;
+			return (ParameterList<T>) originalList;
 		if (idArg.equals(OVERWORLD_BIOMESOURCE_PRESET_ID))
-			return ZingsProjectRedHornModBiomes.modifyOverworldParameterPoints(originalList, lookup);
-		return originalList;
+			return ZingsProjectRedHornModBiomes.modifyOverworldParameterPoints(originalList, args);
+		ZingsProjectRedHornModBiomes originalListtRedHornModBiomes;
+		return ZingsProjectRedHornModBiomes.modifyOverworldParameterPoints(originalList, args);
 	}
 
 	private static SurfaceRules.RuleSource injectOverworldSurfaceRules(SurfaceRules.RuleSource currentRuleSource) {
@@ -79,7 +82,7 @@ public class ZingsProjectRedHornModBiomes {
 				Blocks.GRAVEL.defaultBlockState()));
 		customSurfaceRules.add(preliminarySurfaceRule(ResourceKey.create(Registries.BIOME, Identifier.fromNamespaceAndPath("zings_project_red_horn", "moratorium_beach")), Blocks.SAND.defaultBlockState(), Blocks.DIRT.defaultBlockState(),
 				Blocks.GRAVEL.defaultBlockState()));
-		if (currentRuleSource instanceof SurfaceRules.SequenceRuleSource sequenceRuleSource) {
+		if (currentRuleSource instanceof RuleSource sequenceRuleSource) {
 			customSurfaceRules.addAll(sequenceRuleSource.sequence());
 			return SurfaceRules.sequence(customSurfaceRules.toArray(SurfaceRules.RuleSource[]::new));
 		} else {
@@ -88,27 +91,27 @@ public class ZingsProjectRedHornModBiomes {
 		}
 	}
 
-	public static <T> Climate.ParameterList<T> modifyOverworldParameterPoints(Climate.ParameterList<T> originalList, Function<ResourceKey<Biome>, T> lookup) {
+	public static <T> Climate.ParameterList<T> modifyOverworldParameterPoints(ParameterList<?> originalList, Function<ResourceKey<Biome>,?> args) {
 		List<Pair<Climate.ParameterPoint, T>> parameters = new ArrayList<>(originalList.values());
 		parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.502f, 0.5035f), Climate.Parameter.span(-0.5005f, 0.5025f), Climate.Parameter.span(0.299f, 1.0005f), Climate.Parameter.span(-0.506f, 0.501f),
-				Climate.Parameter.point(0.0f), Climate.Parameter.span(-1.001f, 1.0015f), 0), lookup.apply(ResourceKey.create(Registries.BIOME, Identifier.fromNamespaceAndPath("zings_project_red_horn", "windy_snowy_taiga_plains")))));
+				Climate.Parameter.point(0.0f), Climate.Parameter.span(-1.001f, 1.0015f), 0), args.apply(ResourceKey.create(Registries.BIOME, Identifier.fromNamespaceAndPath("zings_project_red_horn", "windy_snowy_taiga_plains")))));
 		parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.502f, 0.5035f), Climate.Parameter.span(-0.5005f, 0.5025f), Climate.Parameter.span(0.299f, 1.0005f), Climate.Parameter.span(-0.506f, 0.501f),
-				Climate.Parameter.point(1.0f), Climate.Parameter.span(-1.001f, 1.0015f), 0), lookup.apply(ResourceKey.create(Registries.BIOME, Identifier.fromNamespaceAndPath("zings_project_red_horn", "windy_snowy_taiga_plains")))));
+				Climate.Parameter.point(1.0f), Climate.Parameter.span(-1.001f, 1.0015f), 0), args.apply(ResourceKey.create(Registries.BIOME, Identifier.fromNamespaceAndPath("zings_project_red_horn", "windy_snowy_taiga_plains")))));
 		parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.4977f, 0.5004f), Climate.Parameter.span(-0.5011f, 0.5004f), Climate.Parameter.span(0.3011f, 1.0004f), Climate.Parameter.span(-0.4993f, 0.5003f),
-				Climate.Parameter.point(0.0f), Climate.Parameter.span(-1.0007f, 1.0003f), 0), lookup.apply(ResourceKey.create(Registries.BIOME, Identifier.fromNamespaceAndPath("zings_project_red_horn", "dried_flatlands")))));
+				Climate.Parameter.point(0.0f), Climate.Parameter.span(-1.0007f, 1.0003f), 0), args.apply(ResourceKey.create(Registries.BIOME, Identifier.fromNamespaceAndPath("zings_project_red_horn", "dried_flatlands")))));
 		parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.4977f, 0.5004f), Climate.Parameter.span(-0.5011f, 0.5004f), Climate.Parameter.span(0.3011f, 1.0004f), Climate.Parameter.span(-0.4993f, 0.5003f),
-				Climate.Parameter.point(1.0f), Climate.Parameter.span(-1.0007f, 1.0003f), 0), lookup.apply(ResourceKey.create(Registries.BIOME, Identifier.fromNamespaceAndPath("zings_project_red_horn", "dried_flatlands")))));
+				Climate.Parameter.point(1.0f), Climate.Parameter.span(-1.0007f, 1.0003f), 0), args.apply(ResourceKey.create(Registries.BIOME, Identifier.fromNamespaceAndPath("zings_project_red_horn", "dried_flatlands")))));
 		parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.4996f, 0.5023f), Climate.Parameter.span(-0.4999f, 0.5007f), Climate.Parameter.span(0.2975f, 1.0008f), Climate.Parameter.span(-0.5012f, 0.4991f),
-				Climate.Parameter.point(0.0f), Climate.Parameter.span(-1.0011f, 1.0009f), 0), lookup.apply(ResourceKey.create(Registries.BIOME, Identifier.fromNamespaceAndPath("zings_project_red_horn", "moratorium_beach")))));
+				Climate.Parameter.point(0.0f), Climate.Parameter.span(-1.0011f, 1.0009f), 0), args.apply(ResourceKey.create(Registries.BIOME, Identifier.fromNamespaceAndPath("zings_project_red_horn", "moratorium_beach")))));
 		parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.4996f, 0.5023f), Climate.Parameter.span(-0.4999f, 0.5007f), Climate.Parameter.span(0.2975f, 1.0008f), Climate.Parameter.span(-0.5012f, 0.4991f),
-				Climate.Parameter.point(1.0f), Climate.Parameter.span(-1.0011f, 1.0009f), 0), lookup.apply(ResourceKey.create(Registries.BIOME, Identifier.fromNamespaceAndPath("zings_project_red_horn", "moratorium_beach")))));
+				Climate.Parameter.point(1.0f), Climate.Parameter.span(-1.0011f, 1.0009f), 0), args.apply(ResourceKey.create(Registries.BIOME, Identifier.fromNamespaceAndPath("zings_project_red_horn", "moratorium_beach")))));
 		parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.4993f, 0.5001f), Climate.Parameter.span(-0.4992f, 0.5005f), Climate.Parameter.span(0.2999f, 1.0007f), Climate.Parameter.span(-0.5001f, 0.5006f),
-				Climate.Parameter.span(0.2f, 0.9f), Climate.Parameter.span(-1.0001f, 1.0001f), 0), lookup.apply(ResourceKey.create(Registries.BIOME, Identifier.fromNamespaceAndPath("zings_project_red_horn", "klaxon_caves")))));
+				Climate.Parameter.span(0.2f, 0.9f), Climate.Parameter.span(-1.0001f, 1.0001f), 0), args.apply(ResourceKey.create(Registries.BIOME, Identifier.fromNamespaceAndPath("zings_project_red_horn", "klaxon_caves")))));
 		return new Climate.ParameterList<>(parameters);
 	}
 
 	private static SurfaceRules.RuleSource preliminarySurfaceRule(ResourceKey<Biome> biomeKey, BlockState groundBlock, BlockState undergroundBlock, BlockState underwaterBlock) {
-		return SurfaceRules.ifTrue(SurfaceRules.isBiome(biomeKey),
+		return (RuleSource) SurfaceRules.ifTrue(SurfaceRules.isBiome(biomeKey),
 				SurfaceRules.ifTrue(SurfaceRules.abovePreliminarySurface(),
 						SurfaceRules.sequence(
 								SurfaceRules.ifTrue(SurfaceRules.stoneDepthCheck(0, false, 0, CaveSurface.FLOOR),
@@ -117,9 +120,9 @@ public class ZingsProjectRedHornModBiomes {
 	}
 
 	private static SurfaceRules.RuleSource anySurfaceRule(ResourceKey<Biome> biomeKey, BlockState groundBlock, BlockState undergroundBlock, BlockState underwaterBlock) {
-		return SurfaceRules.ifTrue(SurfaceRules.isBiome(biomeKey),
-				SurfaceRules.ifTrue(SurfaceRules.yBlockCheck(VerticalAnchor.aboveBottom(5), 0),
-						SurfaceRules.ifTrue(SurfaceRules.not(SurfaceRules.yBlockCheck(VerticalAnchor.belowTop(5), 0)),
+		return (RuleSource) SurfaceRules.ifTrue(SurfaceRules.isBiome(biomeKey),
+				SurfaceRules.ifTrue(SurfaceRules.waterBlockCheck(VerticalAnchor.aboveBottom(5), 0),
+						SurfaceRules.ifTrue(SurfaceRules.not(SurfaceRules.waterBlockCheck(VerticalAnchor.belowTop(5), 0)),
 								SurfaceRules.sequence(
 										SurfaceRules.ifTrue(SurfaceRules.stoneDepthCheck(0, false, 0, CaveSurface.FLOOR),
 												SurfaceRules.sequence(SurfaceRules.ifTrue(SurfaceRules.waterBlockCheck(-1, 0), SurfaceRules.state(groundBlock)), SurfaceRules.state(underwaterBlock))),

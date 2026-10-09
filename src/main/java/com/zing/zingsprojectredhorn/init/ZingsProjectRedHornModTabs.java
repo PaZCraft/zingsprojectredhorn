@@ -9,12 +9,13 @@ import net.neoforged.neoforge.registries.DeferredHolder;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.network.chat.Component;
+
+import com.zing.zingsprojectredhorn.ZiNGsProjectRedHorn;
+
 import net.minecraft.core.registries.Registries;
 
-import com.zing.zingsprojectredhorn.ZingsProjectRedHornMod;
-
 public class ZingsProjectRedHornModTabs {
-	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, ZingsProjectRedHornMod.MODID);
+	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, ZiNGsProjectRedHorn.MODID);
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> ZERO_TWO_MOD = REGISTRY.register("zero_two_mod",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.zings_project_red_horn.zero_two_mod")).icon(() -> new ItemStack(ZingsProjectRedHornModItems.ZERO_TWO_HEADBAND.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(ZingsProjectRedHornModItems.ZING_BOOK_VOLUME_FOUR.get());
